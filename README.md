@@ -1,6 +1,10 @@
 # DBVIewer
 Database Viewer
 
+# Administrator
+username : dbviewer
+password : dbviewer
+
 # Requirment
   - Django 1.9
   - Django Extension
