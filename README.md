@@ -15,5 +15,6 @@ password : dbviewer
     - install on ubuntu : http://linuxpitstop.com/install-bootstrap-in-ubuntu-15-04/
     - windows : http://getbootstrap.com/getting-started/#download
   - FTP
-    - pyftpdlib
-    - django-ftpserver
+    - django-ftpserver-0.3.4
+    - pyftpdlib-1.5.0
+
