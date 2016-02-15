@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.views import generic
+from django.utils import timezone
 
 from .models import Question, Choice
 
@@ -25,11 +26,28 @@ class ResultsView(generic.DetailView):
     template_name = 'polls/results.html'
 
 
+def add_question(request):
+    q = Question(question_text="ok new question", pub_date=timezone.now())
+    q.save()
+    # back to index page
+    return HttpResponseRedirect(reverse('polls:index'))
+
+
+def view_image(request):
+    with open("images/a.jpg", "rb") as f:
+        return HttpResponse(f.read(), content_type="image/jpeg")
+
+
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
         selected_choice = question.choice_set.get(pk=request.POST['choice'])
     except (KeyError, Choice.DoesNotExist):
+        # if no have choice then add choice
+        if question.choice_set.count() == 0:
+            question.choice_set.create(choice_text='ok', votes=0)
+            question.choice_set.create(choice_text='no', votes=0)
+
         # Redisplay the question voting form.
         return render(request, 'polls/detail.html', {
             'question': question,
