@@ -47,25 +47,24 @@ def csv2db():
             reader = list(reader)
             if reader and len(reader) > 0:
                 header = reader[0]
-                # drop old table and create new table
+                # drop old table
                 sql = "DROP TABLE IF EXISTS %s" % tablename
                 cur.execute(sql)
-                sql = "CREATE TABLE %s (%s)" % (tablename, ", ".join(["%s" % column for column in header]))
+
+                # create table sql command, if id field not in table then make it.
+                if not any(['id' == column.lower() for column in header]):
+                    sql = "CREATE TABLE %s (%s)" % (tablename, 'id INTEGER PRIMARY KEY AUTOINCREMENT, ' + ", ".join(
+                        ["%s" % column for column in header]))
+                else:
+                    sql = "CREATE TABLE %s (%s)" % (tablename, ", ".join(["%s" % column for column in header]))
                 cur.execute(sql)
 
-                # find id of column
-                for column in header:
-                    if False and column.lower().endswith("_id"):
-                        index = "%s__%s" % (tablename, column)
-                        sql = "CREATE INDEX %s on %s (%s)" % (index, tablename, column)
-                        cur.execute(sql)
-                        break
                 # insert sql command
-                insertsql = "INSERT INTO %s VALUES (%s)" % (tablename, ", ".join(["?" for column in header]))
-
+                sql = "INSERT INTO %s (%s) VALUES (%s)" % (tablename, ", ".join(header), ", ".join(["?" for i in header]))
                 # insert values - ignore header
                 for row in reader[1:]:
-                    cur.execute(insertsql, row)
+                    cur.execute(sql, row)
+
                 # commit
                 conn.commit()
             else:

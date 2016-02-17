@@ -38,6 +38,10 @@ def view_image(request):
         return HttpResponse(f.read(), content_type="image/jpeg")
 
 
+def myview(request):
+    return render(request, 'polls/myview.html', {'samples': Sample.objects.all()[:10]})
+
+
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:

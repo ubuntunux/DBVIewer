@@ -24,6 +24,7 @@ class Choice(models.Model):
 
 
 class Sample(models.Model):
+    id = models.IntegerField(primary_key=True)
     policyid = models.TextField(db_column='policyID', blank=True, null=True)  # Field name made lowercase. This field type is a guess.
     statecode = models.TextField(blank=True, null=True)  # This field type is a guess.
     county = models.TextField(blank=True, null=True)  # This field type is a guess.
