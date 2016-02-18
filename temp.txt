@@ -1,0 +1,852 @@
+16
+['EFDLCHAR_MN', 'EFDataStore_LookInfosMonster.EFDLCHAR_MN_RHWA_00', 'EFDLCHAR_MN_RHWA_00', 'False', 'EFDLCHAR_MN_RHWA_00', 'EFDLCHAR_MN_RHWA_00', '', '', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDataStore_LookInfosMonster.MN_LRCR_00', 'MN_LRCR_00', 'False', 'MN_LRCR_00', 'MN_LRCR_00', '체스룩', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK', '', 'MN_LRCR_00.Ani.MN_LRCR_00_Ani', 'MN_LRCR_00.Ani.MN_LRCR_00_Physics', '', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK_Sh01', '', '', 'FX_CM_01.Explosion.Par_E_PartsExp_LRCR_001']
+16
+['VI', 'EFDataStore_LookInfosMonster.VI_BALLISTA01_00', 'VI_BALLISTA01_00', 'False', 'VI_BALLISTA01_00', 'VI_BALLISTA01_00', '', '', '', '', '', '', '', '', '', '']
+16
+['NP', 'EFDChar_NP_RERD_00.NP_RERD_00', 'NP_RERD_00', 'False', 'NP_RERD_00', 'NP_RERD_00', '릴다', 'NP_RERD_00.Mesh.NP_RERD_00_SK', 'MN_Head_FE04_001.Mat.Head_FE04_001-3_MI', '', '', '', 'MN_Head_FE04_001.Mesh.Head_FE04_001_SK', '', '', '']
+16
+['NP', 'EFDChar_NP_RERD_00-1.NP_RERD_00-1', 'NP_RERD_00-1', 'True', 'NP_RERD_00', 'NP_RERD_00', '기뻐하는 주민', 'NP_RERD_00.Mesh.NP_RERD_00_SK', 'NP_RERD_00-1.Mat.NP_RERD_00-1_MI', '', '', '', 'MN_Head_FE04_001.Mesh.Head_FE04_001_SK', '', '', '']
+16
+['NP', 'EFDChar_NP_RERD_00-2.NP_RERD_00-2', 'NP_RERD_00-2', 'True', 'NP_RERD_00', 'NP_RERD_00', '수도원 마을처녀', 'NP_RERD_00.Mesh.NP_RERD_00_SK', 'NP_RERD_00-2.Mat.NP_RERD_00-2_MI', '', '', '', 'MN_Head_FE04_001.Mesh.Head_FE04_001_SK', '', '', '']
+16
+['', 'EFDLChar_BATTLESHIP.BATTLESHIP', 'BATTLESHIP', 'False', '', '', '', 'RideBOXPCs.sk.RidePCs_SK', '', 'RideBOXPCs.sk.RidePCs_SK_Anims', 'RideBOXPCs.sk.RidePCs_SK_Physics', '', '', '', '', '']
+16
+['', 'EFDLChar_CANNON_0.CANNON_0', 'CANNON_0', 'False', '', '', '', 'Transit_Cannon.Mesh.Transit_Cannon', '', 'Transit_Cannon.Anim.Transit_Cannon_Anim', 'Transit_Cannon.Mesh.Transit_Cannon_Physics', '', '', '', '', '']
+16
+['', 'EFDLChar_FLYWHALE.FLYWHALE', 'FLYWHALE', 'False', '', '', '', 'RidePCs_flyWhale_Half.sk.PR_CBF_01_RidePCs05_SK', '', 'RidePCs_flyWhale_Half.sk.PR_CBF_01_RidePCs05_Anims', 'RidePCs_flyWhale_Half.sk.PR_CBF_01_RidePCs05_Physics', '', '', '', '', '']
+16
+['', 'EFDLChar_ITR_00349.ITR_00349', 'ITR_00349', 'False', '', '', '부서진 제단', 'ITR_00349.mesh_new.ITR_00349_SK', '', '', 'ITR_00349.Ani.ITR_00349_Physics', '', '', '', '', '']
+16
+['', 'EFDLChar_KAYANGELGEAR.kayangelGear', 'kayangelGear', 'False', '', '', '', 'kayangelGear.sk.ridePCs_GearTransit_SK', '', 'kayangelGear.sk.ridePCs_GearTransit_Anim', 'kayangelGear.sk.ridePCs_GearTransit_SK_Physics1', '', '', '', '', '']
+16
+['', 'EFDLChar_KAYANGELGEAR_RENEWAL.kayangelGear_Renewal', 'kayangelGear_Renewal', 'False', '', '', '', 'vehicle_01.Anim.VT_KayangelGear_SK', '', 'vehicle_01.Anim.VT_KayangelGear_Anim', 'vehicle_01.Anim.VT_KayangelGear_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_00.MN_AHMS_00', 'MN_AHMS_00', 'False', 'MN_AHMS_00', 'MN_AHMS_00', '메라뱀', 'MN_AHMS_00.Mesh.MN_AHMS_00_SK', '', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_01.MN_AHMS_01', 'MN_AHMS_01', 'True', 'MN_AHMS_00', 'MN_AHMS_01', '어린 메라뱀 A', 'MN_AHMS_01.Mesh.MN_AHMS_01_SK', '', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_01-1.MN_AHMS_01-1', 'MN_AHMS_01-1', 'True', 'MN_AHMS_00', 'MN_AHMS_01', '어린 메라뱀 B', 'MN_AHMS_01.Mesh.MN_AHMS_01_SK', 'MN_AHMS_01-1.Mat.MN_AHMS_01-1_MI', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_01-2.MN_AHMS_01-2', 'MN_AHMS_01-2', 'True', 'MN_AHMS_00', 'MN_AHMS_01', '어린 메라뱀 C', 'MN_AHMS_01.Mesh.MN_AHMS_01_SK', 'MN_AHMS_01-2.Mat.MN_AHMS_01-2_MI', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_01-3.MN_AHMS_01-3', 'MN_AHMS_01-3', 'True', 'MN_AHMS_00', 'MN_AHMS_01', '어린 메라뱀 D', 'MN_AHMS_01.Mesh.MN_AHMS_01_SK', 'MN_AHMS_01-3.Mat.MN_AHMS_01-3_MI', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_01-4.MN_AHMS_01-4', 'MN_AHMS_01-4', 'True', 'MN_AHMS_00', 'MN_AHMS_01', '어린 메라뱀-4 검은돌기뱀', 'MN_AHMS_01.Mesh.MN_AHMS_01_SK', 'MN_AHMS_01-4.Mat.MN_AHMS_01-4_MI', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHMS_01-5.MN_AHMS_01-5', 'MN_AHMS_01-5', 'True', 'MN_AHMS_00', 'MN_AHMS_01', '소금 사막 메라뱀', 'MN_AHMS_01.Mesh.MN_AHMS_01_SK', 'MN_AHMS_01-5.Mat.MN_AHMS_01-5_MI', 'MN_AHMS_00.Ani.MN_AHMS_00_Ani', 'MN_AHMS_00.Ani.MN_AHMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHPF_00.MN_AHPF_00', 'MN_AHPF_00', 'False', 'MN_AHPF_00', 'MN_AHPF_00', '역병 추종자', 'MN_AHPF_00.Mesh.MN_AHPF_00_SK', '', 'MN_AHPF_00.Ani.MN_AHPF_00_Ani', 'MN_AHPF_00.Ani.MN_AHPF_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHPG_00.MN_AHPG_00', 'MN_AHPG_00', 'False', 'MN_AHPG_00', 'MN_AHPG_00', '역병지기', 'MN_AHPG_00.Mesh.MN_AHPG_00_SK', '', 'MN_AHPG_00.Ani.MN_AHPG_00_Ani', 'MN_AHPG_00.Ani.MN_AHPG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_AHPI_00.MN_AHPI_00', 'MN_AHPI_00', 'False', 'MN_AHPI_00', 'MN_AHPI_00', '역병 인도자', 'MN_AHPI_00.Mesh.MN_AHPI_00_SK', '', 'MN_AHPI_00.Ani.MN_AHPI_00_Ani', 'MN_AHPI_00.Ani.MN_AHPI_00_Physics', '', 'MN_AHPI_00.Mesh.MN_AHPI_Weapon_SK', '', '', 'FX_MN_03.Par_H_AHPI_Aura_01']
+16
+['MN', 'EFDLChar_MN_ASDD_00.MN_ASDD_00', 'MN_ASDD_00', 'False', 'MN_ASDD_00', 'MN_ASDD_00', '다단', 'MN_ASDD_00.Mesh.MN_ASDD_00_SK', '', 'MN_ASDD_00.Ani.MN_ASDD_00_Ani', 'MN_ASDD_00.Ani.MN_ASDD_00_Physics', '', 'WP_MN_ASDD_00.Mesh.WP_MN_ASDD_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_00-1.MN_ASDD_00-1', 'MN_ASDD_00-1', 'True', 'MN_ASDD_00', 'MN_ASDD_00', '아케라', 'MN_ASDD_00.Mesh.MN_ASDD_00_SK', 'MN_ASDD_00-1.Mat.MN_ASDD_00-1_MI', 'MN_ASDD_00.Ani.MN_ASDD_00_Ani', 'MN_ASDD_00.Ani.MN_ASDD_00_Physics', '', 'WP_MN_ASDD_00.Mesh.WP_MN_ASDD_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_01.MN_ASDD_01', 'MN_ASDD_01', 'True', 'MN_ASDD_00', 'MN_ASDD_01', '도적단 탐색꾼', 'MN_ASDD_01.Mesh.MN_ASDD_01_SK', '', 'MN_ASDD_01.Ani.MN_ASDD_01_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_01-1.MN_ASDD_01-1', 'MN_ASDD_01-1', 'True', 'MN_ASDD_00', 'MN_ASDD_01', '도적단 날강도', 'MN_ASDD_01.Mesh.MN_ASDD_01_SK', 'MN_ASDD_01-1.Mat.MN_ASDD_01-1_MI', 'MN_ASDD_01.Ani.MN_ASDD_01_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_01-2.MN_ASDD_01-2', 'MN_ASDD_01-2', 'True', 'MN_ASDD_00', 'MN_ASDD_01', '도적단 노예감독', 'MN_ASDD_01.Mesh.MN_ASDD_01_SK', 'MN_ASDD_01-2.Mat.MN_ASDD_01-2_MI', 'MN_ASDD_01.Ani.MN_ASDD_01_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_01-3.MN_ASDD_01-3', 'MN_ASDD_01-3', 'True', 'MN_ASDD_00', 'MN_ASDD_01', '도적단 노예감독-1', 'MN_ASDD_01.Mesh.MN_ASDD_01_SK', 'MN_ASDD_01-3.Mat.MN_ASDD_01-3_MI', 'MN_ASDD_01.Ani.MN_ASDD_01_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_02.MN_ASDD_02', 'MN_ASDD_02', 'True', 'MN_ASDD_00', 'MN_ASDD_02', '도적단 약탈자', 'MN_ASDD_02.Mesh.MN_ASDD_02_SK', '', 'MN_ASDD_02.Ani.MN_ASDD_02_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', 'WP_CMSW_02.Mesh.WP_CMSW_02_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_02-1.MN_ASDD_02-1', 'MN_ASDD_02-1', 'True', 'MN_ASDD_00', 'MN_ASDD_02', '도적단 소매치기', 'MN_ASDD_02.Mesh.MN_ASDD_02_SK', 'MN_ASDD_02-1.Mat.MN_ASDD_02-1_MI', 'MN_ASDD_02.Ani.MN_ASDD_02_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', 'WP_CMSW_02.Mesh.WP_CMSW_02_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_02-2.MN_ASDD_02-2', 'MN_ASDD_02-2', 'True', 'MN_ASDD_00', 'MN_ASDD_02', '도적단 감시꾼', 'MN_ASDD_02.Mesh.MN_ASDD_02_SK', 'MN_ASDD_02-2.Mat.MN_ASDD_02-2_MI', 'MN_ASDD_02.Ani.MN_ASDD_02_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', 'WP_CMSW_02.Mesh.WP_CMSW_02_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_02-3.MN_ASDD_02-3', 'MN_ASDD_02-3', 'True', 'MN_ASDD_00', 'MN_ASDD_02', '도적단 운반책', 'MN_ASDD_02.Mesh.MN_ASDD_02_SK', 'MN_ASDD_02-3.Mat.MN_ASDD_02-3_MI', 'MN_ASDD_02.Ani.MN_ASDD_02_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', 'WP_CMSW_02.Mesh.WP_CMSW_02_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASDD_03.MN_ASDD_03', 'MN_ASDD_03', 'True', 'MN_ASDD_00', 'MN_ASDD_03', '로콘', 'MN_ASDD_03.Mesh.MN_ASDD_03_SK', '', 'MN_ASDD_02.Ani.MN_ASDD_02_Ani', 'MN_ASDD_03.Ani.MN_ASDD_03_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASTD_00.MN_ASTD_00', 'MN_ASTD_00', 'False', 'MN_ASTD_00', 'MN_ASTD_00', '토딕', 'MN_ASTD_00.Mesh.MN_ASTD_00_SK', '', 'MN_ASTD_00.Ani.MN_ASTD_00_Ani', 'MN_ASTD_00.Ani.MN_ASTD_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASTD_01.MN_ASTD_01', 'MN_ASTD_01', 'True', 'MN_ASTD_00', 'MN_ASTD_01', '소금바위거북', 'MN_ASTD_01.Mesh.MN_ASTD_01_SK', '', 'MN_ASTD_01.Ani.MN_ASTD_01_Ani', 'MN_ASTD_01.Ani.MN_ASTD_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASTD_02.MN_ASTD_02', 'MN_ASTD_02', 'True', 'MN_ASTD_00', 'MN_ASTD_02', '거대소금바위거북', 'MN_ASTD_02.Mesh.MN_ASTD_02_SK', '', 'MN_ASTD_02.Ani.MN_ASTD_02_Ani', 'MN_ASTD_02.Mesh.MN_ASTD_02_SK_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASTD_02-1.MN_ASTD_02-1', 'MN_ASTD_02-1', 'True', 'MN_ASTD_00', 'MN_ASTD_02', '썩은구름소금바위거북', 'MN_ASTD_02-1.Mesh.MN_ASTD_02-1_SK', '', 'MN_ASTD_02.Ani.MN_ASTD_02_Ani', 'MN_ASTD_02.Mesh.MN_ASTD_02_SK_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ASYM_00.MN_ASYM_00', 'MN_ASYM_00', 'False', 'MN_ASYM_00', 'MN_ASYM_00', '젊은여성주술사', 'MN_ASYM_00.Mesh.MN_ASYM_00_SK', '', 'HM_FE02.ani_0000.HM_FE02_0000_00A_Nor_Ani', 'HM_FE02.Mesh.HM_FE02_Physics', '', 'MN_Head_FE02_006.Mesh.MN_Head_FE02_006_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_BSTCH_00.MN_BSTCH_00', 'MN_BSTCH_00', 'False', 'MN_BSTCH_00', 'MN_BSTCH_00', '시저혼', 'MN_BSTCH_00.Mesh.MN_BSTCH_00_SK', '', 'MN_BSTCH_00.Ani.MN_BSTCH_00_Ani', 'MN_BSTCH_00.Ani.MN_BSTCH_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_BSTDR_00.MN_BSTDR_00', 'MN_BSTDR_00', 'False', 'MN_BSTDR_00', 'MN_BSTDR_00', '디바우러', 'MN_BSTDR_00.Mesh.MN_BSTDR_00_SK', '', 'MN_BSTDR_00.Ani.MN_BSTDR_00_Ani', 'MN_BSTDR_00.Ani.MN_BSTDR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_BSTRH_00.MN_BSTRH_00', 'MN_BSTRH_00', 'False', 'MN_BSTRH_00', 'MN_BSTRH_00', '라이온헤드', 'MN_BSTRH_00.Mesh.MN_BSTRH_00_SK', '', 'MN_BSTRH_00.Ani.MN_BSTRH_00_Ani', 'MN_BSTRH_00.Mesh.MN_BSTRH_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_BUGPG_00.MN_BUGPG_00', 'MN_BUGPG_00', 'False', 'MN_BUGPG_00', 'MN_BUGPG_00', '독메뚜기', 'MN_BUGPG_00.Mesh.MN_BUGPG_00_SK', '', 'MN_BUGPG_00.Ani.MN_BUGPG_00_Ani', 'MN_BUGPG_00.Mesh.MN_BUGPG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_BUGPG_00-1.MN_BUGPG_00-1', 'MN_BUGPG_00-1', 'True', 'MN_BUGPG_00', 'MN_BUGPG_00', '붉은독메뚜기', 'MN_BUGPG_00.Mesh.MN_BUGPG_00_SK', 'MN_BUGPG_00-1.Mat.MN_BUGPG_00-1_MI', 'MN_BUGPG_00.Ani.MN_BUGPG_00_Ani', 'MN_BUGPG_00.Mesh.MN_BUGPG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDEBC_00.MN_CDEBC_00', 'MN_CDEBC_00', 'False', 'MN_CDEBC_00', 'MN_CDEBC_00', '질병_밤크', 'MN_CDEBC_00.Mesh.MN_CDEBC_00_SK', '', 'MN_CDEBC_00.Ani.MN_CDEBC_00_Ani', 'MN_CDEBC_00.Ani.MN_CDEBC_00_Physics', '', '', '', '', 'fx_mn_01.Par_B_CDEBC_IDLE']
+16
+['MN', 'EFDLChar_MN_CDEBC_00-1.MN_CDEBC_00-1', 'MN_CDEBC_00-1', 'True', 'MN_CDEBC_00', 'MN_CDEBC_00', '크로밤크', 'MN_CDEBC_00.Mesh.MN_CDEBC_00_SK', 'MN_CDEBC_00-1.Mat.MN_CDEBC_00-1_MI', 'MN_CDEBC_00.Ani.MN_CDEBC_00_Ani', 'MN_CDEBC_00.Ani.MN_CDEBC_00_Physics', '', '', '', '', 'fx_mn_01.Par_B_CDEBC_IDLE']
+16
+['MN', 'EFDLChar_MN_CDEBC_00-2.MN_CDEBC_00-2', 'MN_CDEBC_00-2', 'True', 'MN_CDEBC_00', 'MN_CDEBC_00', '범크', 'MN_CDEBC_00.Mesh.MN_CDEBC_00_SK', 'MN_CDEBC_00-2.Mat.MN_CDEBC_00-2_MI', 'MN_CDEBC_00.Ani.MN_CDEBC_00_Ani', 'MN_CDEBC_00.Ani.MN_CDEBC_00_Physics', '', '', '', '', 'fx_mn_01.Par_B_CDEBC_IDLE']
+16
+['MN', 'EFDLChar_MN_CDEBZ_00.MN_CDEBZ_00', 'MN_CDEBZ_00', 'False', 'MN_CDEBZ_00', 'MN_CDEBZ_00', '질병_바즐라', 'MN_CDEBZ_00.Mesh.MN_CDEBZ_00_SK', '', 'MN_CDEBZ_00.Ani.MN_CDEBZ_00_Ani', '', '', '', '', '', 'FX_MN_04.Par_I_CDEBZ_DefaultLoop_02']
+16
+['MN', 'EFDLChar_MN_CDEHJ_00.MN_CDEHJ_00', 'MN_CDEHJ_00', 'False', 'MN_CDEHJ_00', 'MN_CDEHJ_00', '질병_하르잘', 'MN_CDEHJ_00.Mesh.MN_CDEHJ_00_SK', '', 'MN_CDEHJ_00.Ani.MN_CDEHJ_00_Ani', 'MN_CDEHJ_00.Ani.MN_CDEHJ_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDEKK_00.MN_CDEKK_00', 'MN_CDEKK_00', 'False', 'MN_CDEKK_00', 'MN_CDEKK_00', '질병_카미칼', 'MN_CDEKK_00.Mesh.MN_CDEKK_00_sk', '', 'MN_CDEKK_00.Ani.MN_CDEKK_00_Ani', 'MN_CDEKK_00.Ani.MN_CDEKK_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDEKK_00-1.MN_CDEKK_00-1', 'MN_CDEKK_00-1', 'True', 'MN_CDEKK_00', 'MN_CDEKK_00', '칼라도세', 'MN_CDEKK_00.Mesh.MN_CDEKK_00_sk', 'MN_CDEKK_00-1.Mat.MN_CDEKK_00-1_MI', 'MN_CDEKK_00.Ani.MN_CDEKK_00_Ani', 'MN_CDEKK_00.Ani.MN_CDEKK_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDEPC_00.MN_CDEPC_00', 'MN_CDEPC_00', 'False', 'MN_CDEPC_00', 'MN_CDEPC_00', '질병_파츨', 'MN_CDEPC_00.Mesh.MN_CDEPC_00_SK', '', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Ani', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Physics', '', '', '', '', 'FX_BS_03.mark.Par_B_Select_02']
+16
+['MN', 'EFDLChar_MN_CDEPC_00-1.MN_CDEPC_00-1', 'MN_CDEPC_00-1', 'True', 'MN_CDEPC_00', 'MN_CDEPC_00', '질병_역병충 성체', 'MN_CDEPC_00.Mesh.MN_CDEPC_00_SK', 'MN_CDEPC_00-1.Mat.MN_CDEPC_00-01_mi', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Ani', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Physics', '', '', '', '', 'FX_BS_03.mark.Par_B_Select_02']
+16
+['MN', 'EFDLChar_MN_CDEPC_00-2.MN_CDEPC_00-2', 'MN_CDEPC_00-2', 'True', 'MN_CDEPC_00', 'MN_CDEPC_00', '노츨', 'MN_CDEPC_00.Mesh.MN_CDEPC_00_SK', 'MN_CDEPC_00-2.Mat.MN_CDEPC_00-2_MI', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Ani', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDEPC_01.MN_CDEPC_01', 'MN_CDEPC_01', 'True', 'MN_CDEPC_00', 'MN_CDEPC_01', '질병_역병충 무리', 'MN_CDEPC_01.Mesh.MN_CDEPC_01', '', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Ani', 'MN_CDEPC_01.Ani.MN_CDEPC_01_Physics', '', '', '', '', 'FX_BS_03.mark.Par_B_Select_02']
+16
+['MN', 'EFDLChar_MN_CDEPC_02.MN_CDEPC_02', 'MN_CDEPC_02', 'True', 'MN_CDEPC_00', 'MN_CDEPC_02', '파리 떼', 'MN_CDEPC_01.Mesh.MN_CDEPC_01', 'MN_CDEPC_02.Mat.MN_CDEPC_02_MI', 'MN_CDEPC_00.Ani.MN_CDEPC_00_Ani', 'MN_CDEPC_01.Ani.MN_CDEPC_01_Physics', '', '', '', '', 'FX_BS_03.mark.Par_B_Select_02']
+16
+['MN', 'EFDLChar_MN_CDKAM_00.MN_CDKAM_00', 'MN_CDKAM_00', 'False', 'MN_CDKAM_00', 'MN_CDKAM_00', '어둠_아드모스', 'MN_CDKAM_00.Mesh.MN_CDKAM_00_SK', '', 'MN_CDKAM_00.Ani.MN_CDKAM_00_Ani', 'MN_CDKAM_00.Ani.MN_CDKAM_00_Physics', '', 'MN_CDKAM_00.Mesh.WP_MN_CDKAM_00', '', '', 'fx_mn_01.Par_D_PAVR_Default_03_1']
+16
+['MN', 'EFDLChar_MN_CDKEK_00.MN_CDKEK_00', 'MN_CDKEK_00', 'False', 'MN_CDKEK_00', 'MN_CDKEK_00', '에둔켈', 'MN_CDKEK_00.Mesh.MN_CDKEK_SK', '', 'MN_CDKEK_00.Ani.MN_CDKEK_00_Ani', 'MN_CDKEK_00.Ani.MN_CDKEK_Sk_Physics', '', 'MN_CDKEK_00.Mesh.MN_CDKEK_WP', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDKKM_00.MN_CDKKM_00', 'MN_CDKKM_00', 'False', 'MN_CDKKM_00', 'MN_CDKKM_00', '칼트말루스', 'MN_CDKKM_00.Mesh.MN_CDKKM_00_SK', '', 'MN_CDKKM_00.Ani.MN_CDKKM_00_Ani', 'MN_CDKKM_00.Ani.MN_CDKKM_00_Physics', '', '', '', '', 'FX_MN_04.Par_I_CDKKM_Foot_02']
+16
+['MN', 'EFDLChar_MN_CDKMK_00.MN_CDKMK_00', 'MN_CDKMK_00', 'False', 'MN_CDKMK_00', 'MN_CDKMK_00', '어둠_모르칼로', 'MN_CDKMK_00.Mesh.MN_CDKMK_00_SK', '', 'MN_CDKMK_00.Ani.MN_CDKMK_00_Ani', 'MN_CDKMK_00.Ani.MN_CDKMK_00_Physics', '', 'MN_CDKMK_00.Mesh.MN_CDKMK_00_Weapon_01', '', '', 'FX_MN_04.Par_I_CDKMK_Dafult_01']
+16
+['MN', 'EFDLChar_MN_CDKSA_00.MN_CDKSA_00', 'MN_CDKSA_00', 'False', 'MN_CDKSA_00', 'MN_CDKSA_00', '어둠_스키아라', 'MN_CDKSA_00.Mesh.MN_CDKSA_00_SK', '', 'MN_CDKSA_00.Ani.MN_CDKSA_00_Ani', 'MN_CDKSA_00.Ani.MN_CDKSA_00_Physics', '', '', '', '', 'FX_MN_04.Par_I_CDKSA_Eye_01']
+16
+['MN', 'EFDLChar_MN_CDSAA_00.MN_CDSAA_00', 'MN_CDSAA_00', 'False', 'MN_CDSAA_00', 'MN_CDSAA_00', '욕망_에르아쉬', 'MN_CDSAA_00.Mesh.MN_CDSAA_00_SK', '', 'MN_CDSAA_00.Ani.MN_CDSAA_00_Ani', 'MN_CDSAA_00.Ani.MN_CDSAA_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDSAA_01.MN_CDSAA_01', 'MN_CDSAA_01', 'True', 'MN_CDSAA_00', 'MN_CDSAA_01', '파피마', 'MN_CDSAA_01.Mesh.MN_CDSAA_01_SK', '', 'MN_DPTM_00.Ani.MN_DPTM_00_Ani', 'MN_DPTM_00.Ani.MN_DPTM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDSBA_00.MN_CDSBA_00', 'MN_CDSBA_00', 'False', 'MN_CDSBA_00', 'MN_CDSBA_00', '욕망_블러디앤 뱀파이어', 'MN_CDSBA_00.Mesh.MN_CDSBA_00_SK', 'MN_CDSBA_00.Mat.MN_CDSBA_00_MI', 'MN_CDSBA_00.Ani.MN_CDSBA_00_Ani', 'MN_CDSBA_00.Mesh.MN_CDSBA_00_Physics', '', '', '', '', 'FX_G_01.FX_Par.Par_G_BloodSpread_001']
+16
+['MN', 'EFDLChar_MN_CDSHR_00.MN_CDSHR_00', 'MN_CDSHR_00', 'False', 'MN_CDSHR_00', 'MN_CDSHR_00', '욕망_히르아', 'MN_CDSHR_00.Mesh.MN_CDSHR_00_SK', '', 'MN_CDSHR_00.Ani.MN_CDSHR_00_Ani', 'MN_CDSHR_00.Mesh.MN_CDSHR_00_Physics', '', 'MN_CDSHR_00.Mesh.WP_MN_CDSHR_00_SK', 'MN_CDSHR_00.Mesh.WP_MN_CDSHR_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_CDSPA_00.MN_CDSPA_00', 'MN_CDSPA_00', 'False', 'MN_CDSPA_00', 'MN_CDSPA_00', '프루아티', 'MN_CDSPA_00.Mesh.MN_CDSPA_00_SK', '', 'MN_CDSPA_00.Ani.MN_CDSPA_00_Ani', 'MN_CDSPA_00.Ani.MN_CDSPA_00_Physics', '', 'MN_CDSPA_00.Mesh.WP_MN_CDSPA_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_CDSRR_00.MN_CDSRR_00', 'MN_CDSRR_00', 'False', 'MN_CDSRR_00', 'MN_CDSRR_00', '욕망_라미로스', 'MN_CDSRR_00.Mesh.MN_CDSRR_00_SK', '', 'MN_CDSRR_00.Ani.MN_CDSRR_00_Ani', 'MN_CDSRR_00.Mesh.MN_CDSRR_00_Physics', '', 'MN_CDSRR_00.Mesh.WP_MN_CDSRR_00_SK', 'MN_CDSRR_00.Mesh.WP_MN_CDSRR_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_CMBA_00.MN_CMBA_00', 'MN_CMBA_00', 'False', 'MN_CMBA_00', 'MN_CMBA_00', '욕망_블러디앤', 'MN_CDSBA_00.Mesh.MN_CDSBA_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CMDCG_00.MN_CMDCG_00', 'MN_CMDCG_00', 'False', 'MN_CMDCG_00', 'MN_CMDCG_00', '설치 몬스터', 'MN_CMDCG_00.Mesh.MN_CMDCG_00', '', 'MN_CMDCG_00.Ani.MN_CMDCG_00_Ani', 'MN_CMDCG_00.Ani.MN_CMDCG_00_Physics', '', 'MN_CMDCG_00.Mesh.MN_CMDCG_01', '', '', '']
+16
+['MN', 'EFDLChar_MN_CMDGR_00.MN_CMDGR_00', 'MN_CMDGR_00', 'False', 'MN_CMDGR_00', 'MN_CMDGR_00', '광기_고로아', 'MN_CMDGR_00.Mesh.MN_CMDGR_00_SK', '', 'MN_CMDGR_00.Ani.MN_CMDGR_00_Ani', 'MN_CMDGR_00.Ani.MN_CMDGR_00_Physics', '', 'WP_MN_CMDGR_00.Mesh.WP_MN_CMDGR_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_CMDKC_00.MN_CMDKC_00', 'MN_CMDKC_00', 'False', 'MN_CMDKC_00', 'MN_CMDKC_00', '광기_키리코', 'MN_CMDKC_00.Mesh.MN_CMDKC_00_SK', '', 'MN_CMDKC_00.Ani.MN_CMDKC_00_Ani', 'MN_CMDKC_00.Ani.MN_CMDKC_00_Physics', '', 'WP_MN_CMDKC_00.Mesh.WP_MN_CMDKC_00_SK', 'WP_MN_CMDKC_00.Mesh.WP_MN_CMDKC_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_CMDSM_00.MN_CMDSM_00', 'MN_CMDSM_00', 'False', 'MN_CMDSM_00', 'MN_CMDSM_00', '광기_샤모스', 'MN_CMDSM_00.Mesh.MN_CMDSM_00_All_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CMDUK_00.MN_CMDUK_00', 'MN_CMDUK_00', 'False', 'MN_CMDUK_00', 'MN_CMDUK_00', '광기_우피르왕', 'MN_CMDUK_00.Mesh.MN_CMDUK_00_Sk', '', 'MN_CMDUK_00.Ani.MN_CMDUK_00_Ani', 'MN_CMDUK_00.Ani.MN_CMDUK_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CMDUP_00.MN_CMDUP_00', 'MN_CMDUP_00', 'False', 'MN_CMDUP_00', 'MN_CMDUP_00', '광기_우피르', 'MN_CMDUP_00.Mesh.MN_CMDUP_00_SK', '', 'MN_CMDUP_00.Ani.MN_CMDUP_00_Ani', 'MN_CMDUP_00.Mesh.MN_CMDUP_00_Physics', '', 'WP_MN_CMDUP_00.Mesh.WP_MN_CMDUP_00_SK', '', '', 'fx_mn_00.Par_B_CMDUP_Body_001']
+16
+['MN', 'EFDLChar_MN_CMDVE_00.MN_CMDVE_00', 'MN_CMDVE_00', 'False', 'MN_CMDVE_00', 'MN_CMDVE_00', '광기_벨레드', 'MN_CMDVE_00.Mesh.MN_CMDVE_00_SK', '', 'MN_CMDVE_00.Ani.MN_CMDVE_00_Ani', 'MN_CMDVE_00.Ani.MN_CMDVE_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CPTAT_00.MN_CPTAT_00', 'MN_CPTAT_00', 'False', 'MN_CPTAT_00', 'MN_CPTAT_00', '몽환_아티스', 'MN_CPTAT_00.Mesh.MN_CPTAT_00_sk', '', 'MN_CPTAT_00.Ani.MN_CPTAT_00_Ani', 'MN_CPTAT_00.Ani.MN_CPTAT_00_physics', '', '', '', '', 'fx_mn_02.Par_E_CPTATAura_01']
+16
+['MN', 'EFDLChar_MN_CPTBR_00.MN_CPTBR_00', 'MN_CPTBR_00', 'False', 'MN_CPTBR_00', 'MN_CPTBR_00', '몽환_비질리아', 'MN_CPTBR_00.Mesh.MN_CPTBR_00_SK', '', 'MN_CPTBR_00.Ani.MN_CPTBR_00_Ani', 'MN_CPTBR_00.Ani.MN_CPTBR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CPTCR_00.MN_CPTCR_00', 'MN_CPTCR_00', 'False', 'MN_CPTCR_00', 'MN_CPTCR_00', '몽환_코쿠릴레움', 'MN_CPTCR_00.Mesh.MN_CPTCR_00_SK', '', 'MN_CPTCR_00.Ani.MN_CPTCR_00_Ani', 'MN_CPTCR_00.Ani.MN_CPTCR_00_Physics', '', 'MN_CPTCR_00.Mesh.MN_CPTCR_00_WP_SK', '', '', 'fx_mn_01.Par_D_PAVR_Default_03']
+16
+['MN', 'EFDLChar_MN_CPTKT_00.MN_CPTKT_00', 'MN_CPTKT_00', 'False', 'MN_CPTKT_00', 'MN_CPTKT_00', '몽환_코나티', 'MN_CPTKT_00.Mesh.MN_CPTKT_00_SK', '', 'MN_CPTKT_00.Ani.MN_CPTKT_00_Ani', 'MN_CPTKT_00.Ani.MN_CPTKT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CPTPP_00.MN_CPTPP_00', 'MN_CPTPP_00', 'False', 'MN_CPTPP_00', 'MN_CPTPP_00', '몽환_푸페트', 'MN_CPTPP_00.Mesh.MN_CPTPP_00_SK', '', 'MN_CPTPP_00.Ani.MN_CPTPP_00_Ani', 'MN_CPTPP_00.Mesh.MN_CPTPP_00_Physics', '', 'MN_CPTPP_00.Mesh.MN_CPTPP_00_Weapon_SK', '', '', 'FX_CM_01.Glitter.Par_B_CPTPPEye_001']
+16
+['mn', 'EFDLChar_MN_CVBS_00.mn_cvbs_00', 'mn_cvbs_00', 'False', 'mn_cvbs_00', 'mn_cvbs_00', '붉은안개정령', 'mn_cvbs_00.Mesh.MN_CVBS_00_sk', '', 'mn_sqds_00.Ani.mn_sqds_00_Ani', 'mn_sqds_00.Ani.MN_SQDS_00_Physics', '', '', '', '', 'fx_mn_01.Par_B_SQDSAura_002']
+16
+['MN', 'EFDLChar_MN_CVMW_00.MN_CVMW_00', 'MN_CVMW_00', 'False', 'MN_CVMW_00', 'MN_CVMW_00', '이끼늑대', 'MN_CVMW_00.Mesh.MN_CVMW_00_SK', '', 'MN_CVMW_00.Ani.mn_cvmw_00_Ani', 'MN_CVMW_00.Ani.MN_CVMW_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_CVRG_00.MN_CVRG_00', 'MN_CVRG_00', 'False', 'MN_CVRG_00', 'MN_CVRG_00', '바위조각 골렘', 'MN_CVRG_00.Mesh.MN_CVRG_00_SK', '', 'NP_PANI_00.Ani.NP_PANI_00_Ani', 'NP_PANI_00.Mesh.NP_PANI_00_Physics', '', '', '', '', 'fx_mn_02.Par_E_CVRG_Aura_01']
+16
+['MN', 'EFDLChar_MN_CVSS_00.MN_CVSS_00', 'MN_CVSS_00', 'False', 'MN_CVSS_00', 'MN_CVSS_00', '병사의 망령', 'MN_CVSS_00.Mesh.MN_CVSS_00_SK', '', 'NP_LHCN_00.Ani.NP_LHCN_00_Ani', 'MN_CVWP_00.Ani.MN_CVWP_00_Physics', '', 'MN_CVSS_00.Mesh.MN_CVSS_00_Weapon_SK', '', '', '']
+16
+['MN_CVSS', 'EFDLChar_MN_CVSS_00_GS.MN_CVSS_00_GS', 'MN_CVSS_00_GS', 'True', 'MN_CVSS_00_00', 'MN_CVSS_00_GS', '병사의 망령_지스타', 'MN_CVSS_00.Mesh.MN_CVSS_00_SK', '', 'NP_LHCN_00.Ani.NP_LHCN_00_Ani', 'MN_CVSS_00.Mesh.MN_CVSS_00_Physics', '', 'MN_CVSS_00.Mesh.MN_CVSS_00_Weapon_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_CVWP_00.MN_CVWP_00', 'MN_CVWP_00', 'False', 'MN_CVWP_00', 'MN_CVWP_00', '화이트펜', 'MN_CVWP_00.Mesh.MN_CVWP_00_SK', '', 'MN_CVWP_00.Ani.MN_CVWP_00_ani', 'MN_CVWP_00.Ani.MN_CVWP_00_Physics', '', 'MN_CVWP_00.Mesh.Weapon_R', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBR_00.MN_DPBR_00', 'MN_DPBR_00', 'False', 'MN_DPBR_00', 'MN_DPBR_00', '바오룽', 'MN_DPBR_00.Mesh.MN_DPBR_00_SK', '', 'MN_DPBR_00.Ani.MN_DPBR_00_Ani', 'MN_DPBR_00.Ani.MN_DPBR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBR_00-1.MN_DPBR_00-1', 'MN_DPBR_00-1', 'True', 'MN_DPBR_00', 'MN_DPBR_00', '붉은털 바위곰', 'MN_DPBR_00.Mesh.MN_DPBR_00_SK', 'MN_DPBR_00-1.Mat.MN_DPBR_00-1_MI', 'MN_DPBR_00.Ani.MN_DPBR_00_Ani', 'MN_DPBR_00.Ani.MN_DPBR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBR_01.MN_DPBR_01', 'MN_DPBR_01', 'True', 'MN_DPBR_00', 'MN_DPBR_01', '백곰', 'MN_DPBR_01.Mesh.MN_DPBR_01_SK', '', 'MN_DPBR_00.Ani.MN_DPBR_00_Ani', 'MN_DPBR_00.Ani.MN_DPBR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBR_01-1.MN_DPBR_01-1', 'MN_DPBR_01-1', 'True', 'MN_DPBR_00', 'MN_DPBR_01', '갈색곰', 'MN_DPBR_01.Mesh.MN_DPBR_01_Sk', 'MN_DPBR_01-1.Mat.MN_DPBR_01-1_MI', 'MN_DPBR_00.Ani.MN_DPBR_00_Ani', 'MN_DPBR_00.Ani.MN_DPBR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBS_00.MN_DPBS_00', 'MN_DPBS_00', 'False', 'MN_DPBS_00', 'MN_DPBS_00', '청슈', 'MN_DPBS_00.Mesh.MN_DPBS_00_SK', '', 'MN_DPBS_00.Ani.MN_DPBS_00_Ani', 'MN_DPBS_00.Ani.MN_DPBS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBS_00-1.MN_DPBS_00-1', 'MN_DPBS_00-1', 'True', 'MN_DPBS_00', 'MN_DPBS_00', '청슈-1  라쿠니', 'MN_DPBS_00.Mesh.MN_DPBS_00_SK', 'MN_DPBS_00-1.Mat.MN_DPBS_00-1_MI', 'MN_DPBS_00.Ani.MN_DPBS_00_Ani', 'MN_DPBS_00.Ani.MN_DPBS_00_Physics', '', '', '', '', '']
+16
+['MN_DPBS', 'EFDLChar_MN_DPBS_00_1.MN_DPBS_00_1', 'MN_DPBS_00_1', 'True', 'MN_DPBS_00_00', 'MN_DPBS_00_1', '청슈_1  라쿠니라자', 'MN_DPBS_00_1.Mesh.MN_DPBS_00_1_SK', 'MN_DPBS_00_1.Mat.MN_DPBS_00_1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPBS_01.MN_DPBS_01', 'MN_DPBS_01', 'True', 'MN_DPBS_00', 'MN_DPBS_01', '청슈_01 라쿠니라자', 'MN_DPBS_01.Mesh.MN_DPBS_01_SK', '', 'MN_DPBS_01.Ani.MN_DPBS_01_Ani', 'MN_DPBS_01.Mesh.MN_DPBS_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPCM_00.MN_DPCM_00', 'MN_DPCM_00', 'False', 'MN_DPCM_00', 'MN_DPCM_00', '구름쇠 ', 'MN_DPCM_00.Mesh.MN_DPCM_00_SK', '', 'MN_DPCM_00.Ani.MN_DPCM_00_Ani', 'MN_DPCM_00.Ani.MN_DPCM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPCM_00-1.MN_DPCM_00-1', 'MN_DPCM_00-1', 'True', 'MN_DPCM_00', 'MN_DPCM_00', '바람쇠', 'MN_DPCM_00.Mesh.MN_DPCM_00_SK', 'MN_DPCM_00-1.Mat.MN_DPCM_00-1_MI', 'MN_DPCM_00.Ani.MN_DPCM_00_Ani', 'MN_DPCM_00.Ani.MN_DPCM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPCM_00-2.MN_DPCM_00-2', 'MN_DPCM_00-2', 'True', 'MN_DPCM_00', 'MN_DPCM_00', '강쇠', 'MN_DPCM_00.Mesh.MN_DPCM_00_SK', 'MN_DPCM_00-2.Mat.MN_DPCM_00-2_MI', 'MN_DPCM_00.Ani.MN_DPCM_00_Ani', 'MN_DPCM_00.Ani.MN_DPCM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPDF_00.MN_DPDF_00', 'MN_DPDF_00', 'False', 'MN_DPDF_00', 'MN_DPDF_00', '욕망의 파편', 'MN_DPDF_00.Mesh.MN_DPDF_00_SK', '', 'MN_DPDF_00.Ani.MN_DPDF_00_Ani', 'MN_DPDF_00.Ani.MN_DPDF_00_Physics', '', '', '', '', 'FX_MN_03.Par_G_DPDF_001']
+16
+['MN', 'EFDLChar_MN_DPGL_00.MN_DPGL_00', 'MN_DPGL_00', 'False', 'MN_DPGL_00', 'MN_DPGL_00', '건장한 기루 종업원', 'MN_DPGL_00.Mesh.MN_DPGL_00_SK', '', 'MN_DPGL_00.Ani.MN_DPGL_00_Ani', 'MN_DPGL_00.Ani.MN_DPGL_00_Physics', '', 'WP_NP_RABD_00.Mesh.WP_NP_RABD_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPGL_00-1.MN_DPGL_00-1', 'MN_DPGL_00-1', 'True', 'MN_DPGL_00', 'MN_DPGL_00', '건장한 기루 종업원 베리-1', 'MN_DPGL_00.Mesh.MN_DPGL_00_SK', 'MN_DPGL_00-1.Mat.MN_DPGL_00-1_MI', 'MN_DPGL_00.Ani.MN_DPGL_00_Ani', 'MN_DPGL_00.Ani.MN_DPGL_00_Physics', '', 'WP_NP_RABD_00.Mesh.WP_NP_RABD_00_SK', '', '', '']
+16
+['MN_DPGL', 'EFDLChar_MN_DPGL_00_FGT.MN_DPGL_00_FGT', 'MN_DPGL_00_FGT', 'True', 'MN_DPGL_00_00', 'MN_DPGL_00_FGT', '일꾼 FGT', 'MN_DPGL_00.Mesh.MN_DPGL_00_SK', '', 'MN_DPGL_00.Ani.MN_DPGL_00_Ani_FGT', 'MN_DPGL_00.Ani.MN_DPGL_00_Physics', '', 'WP_NP_RABD_00.Mesh.WP_NP_RABD_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPHC_00.MN_DPHC_00', 'MN_DPHC_00', 'False', 'MN_DPHC_00', 'MN_DPHC_00', '주방장', 'MN_DPHC_00.Mesh.MN_DPHC_00_SK', '', 'MN_DPHC_00.Ani.MN_DPHC_00_Ani', 'MN_DPHC_00.Ani.MN_DPHC_00_Physics', '', 'MN_DPHC_00.Mesh.WP_MN_DPHC_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_DPTM_00.MN_DPTM_00', 'MN_DPTM_00', 'False', 'MN_DPTM_00', 'MN_DPTM_00', '타마', 'MN_DPTM_00.Mesh.MN_DPTM_00_SK', '', 'MN_DPTM_00.Ani.MN_DPTM_00_Ani', 'MN_DPTM_00.Ani.MN_DPTM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_DUMMY_TEST.MN_Dummy_TEST', 'MN_Dummy_TEST', 'True', 'MN_Dummy_00', 'MN_Dummy_TEST', '3등분파괴 거대몬스터', 'MN_Dummy_TEST.Mesh.Dummy_TEST', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ELAH_00.MN_ELAH_00', 'MN_ELAH_00', 'False', 'MN_ELAH_00', 'MN_ELAH_00', '닥터 아이히만', 'MN_ELAH_00.Mesh.MN_ELAH_00_SK', '', 'MN_ELAH_00.Ani.MN_ELAH_00_Ani', 'MN_ELAH_00.Ani.MN_ELAH_00_Physics', '', '', '', '', 'fx_mn_01.Par_D_ELAH_Default_01']
+16
+['MN', 'EFDLChar_MN_ELID_00.MN_ELID_00', 'MN_ELID_00', 'False', 'MN_ELID_00', 'MN_ELID_00', '강철 도베르만', 'MN_ELID_00.Mesh.MN_ELID_00_SK', '', 'MN_ELID_00.Ani.MN_ELID_00_Ani', 'MN_ELID_00.Ani.MN_ELID_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ELMB_00.MN_ELMB_00', 'MN_ELMB_00', 'False', 'MN_ELMB_00', 'MN_ELMB_00', '기계형제_형(골스운트)', 'MN_ELMB_00.Mesh.MN_ELMB_00_SK', '', 'MN_ELMB_00.Ani.MN_ELMB_00_Ani', 'MN_ELMB_00.Ani.MN_ELMB_00_Physics', '', 'MN_ELMB_00.Mesh.MN_ELMB_00_Weapon_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ELMB_00-1.MN_ELMB_00-1', 'MN_ELMB_00-1', 'True', 'MN_ELMB_00', 'MN_ELMB_00', '기계형제_동생(베니하운트)', 'MN_ELMB_00.Mesh.MN_ELMB_00_SK', 'MN_ELMB_00-1.Mat.MN_ELMB_00-1_MI', 'MN_ELMB_00.Ani.MN_ELMB_00_Ani', 'MN_ELMB_00.Ani.MN_ELMB_00_Physics', '', 'MN_ELMB_00-1.Mesh.MN_ELMB_00-1_Weapon_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ELMS_00.MN_ELMS_00', 'MN_ELMS_00', 'False', 'MN_ELMS_00', 'MN_ELMS_00', '마나 감지기', 'MN_ELMS_00.Mesh.MN_ELMS_00_SK', '', 'MN_ELMS_00.Ani.MN_ELMS_00_Ani', 'MN_ELMS_00.Ani.MN_ELMS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FSHBM_00.MN_FSHBM_00', 'MN_FSHBM_00', 'False', 'MN_FSHBM_00', 'MN_FSHBM_00', '베티모스', 'MN_FSHBM_00.Mesh.MN_FSHBM_00_SK', '', 'MN_FSHBM_00.Ani.MN_FSHBM_00_Ani', 'MN_FSHBM_00.Mesh.MN_FSHBM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FSHBM_00-1.MN_FSHBM_00-1', 'MN_FSHBM_00-1', 'True', 'MN_FSHBM_00', 'MN_FSHBM_00', '베티모스-1 점박이베티모스', 'MN_FSHBM_00.Mesh.MN_FSHBM_00_SK', 'MN_FSHBM_00-1.Mat.MN_FSHBM_00-1_MI', '', '', '', '', '', '', '']
+16
+['N', 'EFDLChar_MN_FSHBM_00-1.N_FSHBM_00-1', 'N_FSHBM_00-1', 'True', 'N_FSHBM_00', 'N_FSHBM_00', '베티모스-1 점박이베티모스', 'MN_FSHBM_00.Mesh.MN_FSHBM_00_SK', 'MN_FSHBM_00-1.Mat.MN_FSHBM_00-1_MI', 'MN_FSHBM_00.Ani.MN_FSHBM_00_Ani', 'MN_FSHBM_00.Mesh.MN_FSHBM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FSHBM_01.MN_FSHBM_01', 'MN_FSHBM_01', 'True', 'MN_FSHBM_00', 'MN_FSHBM_01', '악어', 'MN_FSHBM_01.Mesh.MN_FSHBM_01_SK', '', 'MN_FSHBM_00.Ani.MN_FSHBM_00_Ani', 'MN_FSHBM_00.Mesh.MN_FSHBM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FSHSH_00.MN_FSHSH_00', 'MN_FSHSH_00', 'False', 'MN_FSHSH_00', 'MN_FSHSH_00', '샹크라마', 'MN_FSHSH_00.Mesh.MN_FSHSH_00_SK', '', 'MN_FSHSH_00.Ani.MN_FSHSH_00_Ani', 'MN_FSHSH_00.Mesh.MN_FSHSH_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZAN_00.MN_FZAN_00', 'MN_FZAN_00', 'False', 'MN_FZAN_00', 'MN_FZAN_00', '도끼 든 너트', 'MN_FZAN_00.Mesh.MN_FZAN_00_SK', '', 'MN_FZAN_00.Ani.MN_FZAN_00_Ani', 'MN_FZAN_00.Ani.MN_FZAN_00_Physics', '', 'MN_FZAN_00.Mesh.MN_FZAN_00_WP', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZBW_00.MN_FZBW_00', 'MN_FZBW_00', 'False', 'MN_FZBW_00', 'MN_FZBW_00', '감염된 볼트 전사', 'MN_FZBW_00.Mesh.MN_FZBW_00_SK', '', 'MN_FZBW_00.Ani.MN_FZBW_00_Ani', 'MN_FZBW_00.Ani.MN_FZBW_00_Physics', '', 'MN_FZBW_00.Mesh.WP_MN_FZBW_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZBW_01.MN_FZBW_01', 'MN_FZBW_01', 'True', 'MN_FZBW_00', 'MN_FZBW_01', '감염된 볼트 전사 1', 'MN_FZBW_00.Mesh.MN_FZBW_00_SK', 'MN_FZBW_01.Mat.MN_FZBW_01_MI', 'MN_FZBW_01.Ani.MN_FZBW_01_Ani', 'MN_FZBW_00.Ani.MN_FZBW_00_Physics', '', 'MN_FZBW_01.Mesh.WP_MN_FZBW_01_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZDD_00.MN_FZDD_00', 'MN_FZDD_00', 'False', 'MN_FZDD_00', 'MN_FZDD_00', '검은나귀 상단원', 'MN_FZDD_00.Mesh.MN_FZDD_00_SK', '', 'MN_FZDD_00.Ani.MN_FZDD_00_Ani', 'MN_FZDD_00.Ani.MN_FZDD_00_Physics', '', 'MN_FZDD_00.Mesh.Weapon_Sword_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZDD_00-1.MN_FZDD_00-1', 'MN_FZDD_00-1', 'True', 'MN_FZDD_00', 'MN_FZDD_00', '검은나귀 상단원1', 'MN_FZDD_00.Mesh.MN_FZDD_00_SK', 'MN_FZDD_00-1.Mat.MN_FZDD_00-1_MI', 'MN_FZDD_00.Ani.MN_FZDD_00_Ani', 'MN_FZDD_00.Ani.MN_FZDD_00_Physics', '', 'MN_FZDD_00.Mesh.Weapon_Sword_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZDD_00-2.MN_FZDD_00-2', 'MN_FZDD_00-2', 'True', 'MN_FZDD_00', 'MN_FZDD_00', '암거래 상인1', 'MN_FZDD_00.Mesh.MN_FZDD_00_SK', 'MN_FZDD_00-2.Mat.MN_FZDD_00-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZDD_00-3.MN_FZDD_00-3', 'MN_FZDD_00-3', 'True', 'MN_FZDD_00', 'MN_FZDD_00', '암거래 상인2', 'MN_FZDD_00.Mesh.MN_FZDD_00_SK', 'MN_FZDD_00-3.Mat.MN_FZDD_00-3_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZDD_00-4.MN_FZDD_00-4', 'MN_FZDD_00-4', 'True', 'MN_FZDD_00', 'MN_FZDD_00', '암거래 상인3', 'MN_FZDD_00.Mesh.MN_FZDD_00_SK', 'MN_FZDD_00-4.Mat.MN_FZDD_00-4_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZDD_00-5.MN_FZDD_00-5', 'MN_FZDD_00-5', 'True', 'MN_FZDD_00', 'MN_FZDD_00', '현상수배범 쿤트', 'MN_FZDD_00.Mesh.MN_FZDD_00_SK', 'MN_FZDD_00-5.Mat.MN_FZDD_00-5_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZKR_00.MN_FZKR_00', 'MN_FZKR_00', 'False', 'MN_FZKR_00', 'MN_FZKR_00', '카스릭', 'MN_FZKR_00.Mesh.MN_FZKR_00_SK', '', 'MN_FZKR_00.Ani.MN_FZKR_00_Ani', 'MN_FZKR_00.Ani.MN_FZKR_00_Physics', '', 'MN_FZKR_00.Mesh.WP_FZKR_00', '', '', 'fx_mn_01.Par_E_FZKR_Light_01']
+16
+['MN', 'EFDLChar_MN_FZMG_00.MN_FZMG_00', 'MN_FZMG_00', 'False', 'MN_FZMG_00', 'MN_FZMG_00', '묘지기 유령', 'MN_FZMG_00.Mesh.MN_FZMG_00_SK', '', 'MN_FZMG_00.Ani.MN_FZMG_00_Ani', 'MN_FZMG_00.Ani.MN_FZMG_00_Physics', '', '', '', '', 'FX_CM_02.Light.Par_C_Light_010']
+16
+['MN', 'EFDLChar_MN_FZMG_00-1.MN_FZMG_00-1', 'MN_FZMG_00-1', 'True', 'MN_FZMG_00', 'MN_FZMG_00', '혼돈의감시자', 'MN_FZMG_00.Mesh.MN_FZMG_00_SK', 'MN_FZMG_00-1.Mat.MN_FZMG_00-1_MI', 'MN_FZMG_00.Ani.MN_FZMG_00_Ani', 'MN_FZMG_00.Ani.MN_FZMG_00_Physics', '', '', '', '', 'FX_CM_02.Light.Par_C_Light_010']
+16
+['MN', 'EFDLChar_MN_FZMG_00-2.MN_FZMG_00-2', 'MN_FZMG_00-2', 'True', 'MN_FZMG_00', 'MN_FZMG_00', '어둠의 감시자', 'MN_FZMG_00.Mesh.MN_FZMG_00_SK', 'MN_FZMG_00-2.Mat.MN_FZMG_00-2_MI', 'MN_FZMG_00.Ani.MN_FZMG_00_Ani', 'MN_FZMG_00.Ani.MN_FZMG_00_Physics', '', '', '', '', 'FX_CM_02.Light.Par_C_Light_010']
+16
+['MN', 'EFDLChar_MN_FZMG_00-3.MN_FZMG_00-3', 'MN_FZMG_00-3', 'True', 'MN_FZMG_00', 'MN_FZMG_00', '미궁지기 유령', 'MN_FZMG_00.Mesh.MN_FZMG_00_SK', 'MN_FZMG_00-3.Mat.MN_FZMG_00-3_MI', 'MN_FZMG_00.Ani.MN_FZMG_00_Ani', 'MN_FZMG_00.Ani.MN_FZMG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_FZPM_00.MN_FZPM_00', 'MN_FZPM_00', 'False', 'MN_FZPM_00', 'MN_FZPM_00', '판데몬', 'MN_FZPM_00.Mesh.MN_FZPM_00_SK', '', 'MN_FZPM_00.Ani.MN_FZPM_00_Ani', 'MN_FZPM_00.Ani.MN_FZPM_00_Physics', '', 'MN_FZPM_00.Mesh.MN_FZPM_00_Weapon', '', '', '']
+16
+['MN', 'EFDLChar_MN_GSTBM_00.MN_GSTBM_00', 'MN_GSTBM_00', 'False', 'MN_GSTBM_00', 'MN_GSTBM_00', '베히모스', 'MN_GSTBM_00.Mesh.MN_GSTBM_00_SK', '', 'MN_GSTBM_00.Ani.MN_GSTBM_00_Ani_BK', 'MN_GSTBM_00.Mesh.MN_GSTBM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_GSTSA_00.MN_GSTSA_00', 'MN_GSTSA_00', 'False', 'MN_GSTSA_00', 'MN_GSTSA_00', '유령선 선원', 'MN_GSTSA_00.Mesh.MN_GSTSA_00_SK', '', 'MN_GSTSA_00.Ani.MN_GSTSA_00_Ani', 'MN_GSTSA_00.Ani.MN_GSTSA_00_Physics', '', 'MN_GSTSA_00.Mesh.MN_GSTSA_Weapon', '', '', '']
+16
+['MN', 'EFDLChar_MN_GSTSA_01.MN_GSTSA_01', 'MN_GSTSA_01', 'True', 'MN_GSTSA_00', 'MN_GSTSA_01', '유령선 선장', 'MN_GSTSA_01.Mesh.MN_GSTSA_01_SK', '', 'MN_GSTSA_01.Ani.MN_GSTSA_01_Ani', 'MN_GSTSA_01.Ani.MN_GSTSA_01_Physics', '', 'MN_GSTSA_00.Mesh.MN_GSTSA_Weapon', '', '', '']
+16
+['MN', 'EFDLChar_MN_HUMWR_00.MN_HUMWR_00', 'MN_HUMWR_00', 'False', 'MN_HUMWR_00', 'MN_HUMWR_00', '야만전사', 'MN_HUMWR_00.Mesh.MN_HUMWR_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGBG_00.MN_KGBG_00', 'MN_KGBG_00', 'False', 'MN_KGBG_00', 'MN_KGBG_00', '청동거인', 'MN_KGBG_00.Mesh.MN_KGBG_00_SK', '', 'MN_KGBG_00.Ani.MN_KGBG_00_Ani', 'MN_KGBG_00.Ani.MN_KGBG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGBR_00.MN_KGBR_00', 'MN_KGBR_00', 'False', 'MN_KGBR_00', 'MN_KGBR_00', '발키리', 'MN_KGBR_00.Mesh.MN_KGBR_00_SK', '', 'MN_KGBR_00.Ani.MN_KGBR_00_Ani', 'MN_KGBR_00.Ani.MN_KGBR_00_Physics', '', 'WP_MN_KGBR_00.Mesh.WP_MN_KGBR_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGER_00.MN_KGER_00', 'MN_KGER_00', 'False', 'MN_KGER_00', 'MN_KGER_00', '엘베르', 'MN_KGER_00.Mesh.MN_KGER_00_SK', '', 'MN_KGER_00.Ani.MN_KGER_00_Ani', 'MN_KGER_00.Ani.MN_KGER_00_Physics', '', 'MN_KGER_00.Mesh.WP_MN_KGER_SW', 'MN_KGER_00.Mesh.WP_MN_KGER_SH', '', 'fx_mn_01.Par_C_KGER_Parts_01']
+16
+['MN', 'EFDLChar_MN_KGGW_00.MN_KGGW_00', 'MN_KGGW_00', 'False', 'MN_KGGW_00', 'MN_KGGW_00', '다이나웨일-0', 'MN_KGGW_00.Mesh.MN_KGGW_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGGW_03.MN_KGGW_03', 'MN_KGGW_03', 'True', 'MN_KGGW_00', 'MN_KGGW_03', '다이나웨일-3', 'MN_KGGW_03.Mesh.MN_KGGW_03_SK', '', 'MN_KGGW_03.Ani.MN_KGGW_03_Ani', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGGW_RIDEPCS.MN_KGGW_RidePCs', 'MN_KGGW_RidePCs', 'True', 'MN_KGGW_00', 'MN_KGGW_RidePCs', '', 'MN_KGGW_00_TE.Mesh.MN_KGGW_00_SK', '', 'MN_KGGW_00_TE.Mesh.MN_KGGW_00_Anim', 'MN_KGGW_00_TE.Mesh.MN_KGGW_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGIM_00.MN_KGIM_00', 'MN_KGIM_00', 'False', 'MN_KGIM_00', 'MN_KGIM_00', '철거인', 'MN_KGIM_00.Mesh.MN_KGIM_00_SK', '', 'MN_KGIM_00.Ani.MN_KGIM_00_Ani', 'MN_KGIM_00.Mesh.MN_KGIM_00_Physics', '', 'MN_KGIM_00.Mesh.MN_KGIM_00_Weapon_SK', '', '', 'FX_CM_02.LensFlare.Par_E_LensFlare_07']
+16
+['MN', 'EFDLChar_MN_KGIM_01.MN_KGIM_01', 'MN_KGIM_01', 'True', 'MN_KGIM_00', 'MN_KGIM_01', '철거인 기둥', 'MN_KGIM_01.Mesh.MN_KGIM_01_SK', '', 'MN_KGIM_01.Ani.MN_KGIM_01_Ani', 'MN_KGIM_01.Mesh.MN_KGIM_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGRP_00.MN_KGRP_00', 'MN_KGRP_00', 'False', 'MN_KGRP_00', 'MN_KGRP_00', '', 'MN_KGRP_00.Mesh.MN_KGRP_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGSN_00.MN_KGSN_00', 'MN_KGSN_00', 'False', 'MN_KGSN_00', 'MN_KGSN_00', '천계의 기사', 'MN_KGSN_00.Mesh.MN_KGSN_00_SK', '', 'MN_KGSN_00.Ani.MN_KGSN_00_Ani', 'MN_KGSN_00.Mesh.MN_KGSN_00_Physics', '', 'MN_KGSN_00.Mesh.MN_KGSN_00_WP_00_SK', 'MN_KGSN_00.Mesh.MN_KGSN_00_WP_01_SK', '', '']
+16
+['MN', 'EFDLChar_MN_KGSP_00.MN_KGSP_00', 'MN_KGSP_00', 'False', 'MN_KGSP_00', 'MN_KGSP_00', '천계의 사제', 'MN_KGSP_00.Mesh.MN_KGSP_00_SK', '', 'MN_KGSP_00.Ani.MN_KGSP_00_Ani', 'MN_KGSP_00.Ani.MN_KGSP_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGSS_00.MN_KGSS_00', 'MN_KGSS_00', 'False', 'MN_KGSS_00', 'MN_KGSS_00', '창공의 그림자', 'MN_KGSS_00.Mesh.MN_KGSS_00_SK', '', 'MN_KGSS_00.Ani.MN_KGSS_00_Ani', 'MN_KGSS_00.Ani.MN_KGSS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGSS_01.MN_KGSS_01', 'MN_KGSS_01', 'True', 'MN_KGSS_00', 'MN_KGSS_01', '창공의 그림자_안장', 'MN_KGSS_01.Mesh.MN_KGSS_01_SK', '', 'MN_KGSS_00.Ani.MN_KGSS_00_Ani', 'MN_KGSS_00.Ani.MN_KGSS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_KGTS_00.MN_KGTS_00', 'MN_KGTS_00', 'False', 'MN_KGTS_00', 'MN_KGTS_00', '타브리스', 'MN_KGTS_00.Mesh.MN_KGTS_00_SK', '', 'MN_KGTS_00.Ani.MN_KGTS_00_Ani', 'MN_KGTS_00.Mesh.MN_KGTS_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_LGAR_00.mn_lgar_00', 'mn_lgar_00', 'False', 'mn_lgar_00', 'mn_lgar_00', '독화살 도굴단원', 'mn_lgar_00.Mesh.MN_LGAR_00_SK', '', 'MN_LGAR_00.Ani.MN_LGAR_00_Ani', 'MN_LGAR_00.Ani.MN_LGAR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGBK_00.MN_LGBK_00', 'MN_LGBK_00', 'False', 'MN_LGBK_00', 'MN_LGBK_00', '불칸', 'MN_LGBK_00.Mesh.MN_LGBK_00_SK', '', 'MN_LGBK_00.Ani.MN_LGBK_00_Ani', 'MN_LGBK_00.Mesh.MN_LGBK_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGBK_00-1.MN_LGBK_00-1', 'MN_LGBK_00-1', 'True', 'MN_LGBK_00', 'MN_LGBK_00', '불칸 베리-1', 'MN_LGBK_00.Mesh.MN_LGBK_00_SK', 'MN_LGBK_00-1.Mat.MN_LGBK_00-1_MI', 'MN_LGBK_00.Ani.MN_LGBK_00_Ani', 'MN_LGBK_00.Mesh.MN_LGBK_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGCL_00.MN_LGCL_00', 'MN_LGCL_00', 'False', 'MN_LGCL_00', 'MN_LGCL_00', '크로우클로우', 'MN_LGCL_00.Mesh.MN_LGCL_00_SK', '', 'MN_LGCL_00.Ani.MN_LGCL_00_Ani', 'MN_LGCL_00.Ani.MN_LGCL_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGDG_00.MN_LGDG_00', 'MN_LGDG_00', 'False', 'MN_LGDG_00', 'MN_LGDG_00', '마군단 거인병', 'MN_LGDG_00.Mesh.MN_LGDG_00_SK', '', 'MN_LGDG_00.Ani.MN_LGDG_00_Ani', 'MN_LGDG_00.Ani.MN_LGDG_00_Physics', '', '', '', '', 'FX_CM_02.LensFlare.Par_E_LensFlare_05_1']
+16
+['MN', 'EFDLChar_MN_LGDG_00-1.MN_LGDG_00-1', 'MN_LGDG_00-1', 'True', 'MN_LGDG_00', 'MN_LGDG_00', '마군단 정예병', 'MN_LGDG_00.Mesh.MN_LGDG_00_SK', 'MN_LGDG_00-1.Mat.MN_LGDG_00-1_MI', 'MN_LGDG_00.Ani.MN_LGDG_00_Ani', 'MN_LGDG_00.Ani.MN_LGDG_00_Physics', '', '', '', '', 'FX_CM_02.LensFlare.Par_E_LensFlare_07']
+16
+['mn', 'EFDLChar_MN_LGDP_00.mn_lgdp_00', 'mn_lgdp_00', 'False', 'mn_lgdp_00', 'mn_lgdp_00', '마군단 폭파병', 'mn_lgdp_00.Mesh.MN_LGDP_00_SK', '', 'mn_lgdp_00.Ani.MN_LGDP_00_Ani', 'mn_lgdp_00.Ani.MN_LGDP_00_Physics', '', 'mn_lgdp_00.Mesh.Weapon_SK', '', '', 'FX_CM_02.LensFlare.Par_E_LensFlare_06']
+16
+['mn', 'EFDLChar_MN_LGFR_00.mn_lgfr_00', 'mn_lgfr_00', 'False', 'mn_lgfr_00', 'mn_lgfr_00', '독안개 도굴단원', 'mn_lgfr_00.Mesh.MN_LGFR_00_SK', '', 'MN_LGFR_00.Ani.MN_LGFR_00_Ani', 'MN_LGFR_00.Ani.MN_LGFR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGKG_00.MN_LGKG_00', 'MN_LGKG_00', 'False', 'MN_LGKG_00', 'MN_LGKG_00', '도굴단장 쿠고', 'MN_LGKG_00.Mesh.MN_LGKG_00_SK', '', 'MN_LGAR_00.Ani.MN_LGAR_00_Ani', 'MN_LGAR_00.Ani.MN_LGAR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGKG_00-1.MN_LGKG_00-1', 'MN_LGKG_00-1', 'True', 'MN_LGKG_00', 'MN_LGKG_00', '도굴단장 우고', 'MN_LGKG_00.Mesh.MN_LGKG_00_SK', 'MN_LGKG_00-1.Mat.MN_LGKG_00-1_MI', 'MN_LGAR_00.Ani.MN_LGAR_00_Ani', 'MN_LGAR_00.Ani.MN_LGAR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGLP_00.MN_LGLP_00', 'MN_LGLP_00', 'False', 'MN_LGLP_00', 'MN_LGLP_00', '루푸스', 'MN_LGLP_00.Mesh.MN_LGLP_00_SK', '', 'MN_LGLP_00.Ani.MN_LGLP_00_Ani', 'MN_LGLP_00.Ani.MN_LGLP_00_Physics', '', '', '', '', 'FX_CM_01.Explosion.Par_E_PartsExp_LGLP_001']
+16
+['MN', 'EFDLChar_MN_LGLP_00-1.MN_LGLP_00-1', 'MN_LGLP_00-1', 'True', 'MN_LGLP_00', 'MN_LGLP_00', '거대 루푸스', 'MN_LGLP_00.Mesh.MN_LGLP_00_SK', 'MN_LGLP_00-1.Mat.MN_LGLP_00-1_MI', 'MN_LGLP_00.Ani.MN_LGLP_00_Ani', 'MN_LGLP_00.Ani.MN_LGLP_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LGPD_00.MN_LGPD_00', 'MN_LGPD_00', 'False', 'MN_LGPD_00', 'MN_LGPD_00', '독발톱 도굴단원', 'MN_LGPD_00.Mesh.MN_LGPD_00_SK', '', 'MN_SHST_00.Ani.MN_SHST_00_Ani', 'MN_SHST_00.Ani.MN_SHST_00_Physics', '', 'MN_LGPD_00.Mesh.WP_MN_LGPD_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LHCM_00.MN_LHCM_00', 'MN_LHCM_00', 'False', 'MN_LHCM_00', 'MN_LHCM_00', '뒤엉킨 변이체', 'MN_LHCM_00.Mesh.MN_LHCM_00_Skin', '', 'MN_LHCM_00.Ani.MN_LHCM_00_Ani', 'MN_LHCM_00.Ani.MN_LHCM_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_LHCS_00.mn_lhcs_00', 'mn_lhcs_00', 'False', 'mn_lhcs_00', 'mn_lhcs_00', '시체거미', 'mn_lhcs_00.Mesh.MN_LHCS_00_SK', '', 'MN_LHCS_00.Ani.MN_LHCS_00_Ani', 'MN_LHCS_00.Ani.MN_LHCS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LHCS_00-1.MN_LHCS_00-1', 'MN_LHCS_00-1', 'True', 'MN_LHCS_00', 'MN_LHCS_00', '시체거미 베리1', 'mn_lhcs_00.Mesh.MN_LHCS_00_SK', 'MN_LHCS_00-1.Mat.MN_LHCS_00-1_MI', 'MN_LHCS_00.Ani.MN_LHCS_00_Ani', 'MN_LHCS_00.Ani.MN_LHCS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LHCS_00-2.MN_LHCS_00-2', 'MN_LHCS_00-2', 'True', 'MN_LHCS_00', 'MN_LHCS_00', '시체거미 베리2', 'mn_lhcs_00.Mesh.MN_LHCS_00_SK', 'MN_LHCS_00-2.Mat.MN_LHCS_00-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LHCS_00-3.MN_LHCS_00-3', 'MN_LHCS_00-3', 'True', 'MN_LHCS_00', 'MN_LHCS_00', '시체거미 베리3', 'mn_lhcs_00.Mesh.MN_LHCS_00_SK', 'MN_LHCS_00-3.Mat.MN_LHCS_00-3_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LHCS_00-4.MN_LHCS_00-4', 'MN_LHCS_00-4', 'True', 'MN_LHCS_00', 'MN_LHCS_00', '시체거미 베리4', 'mn_lhcs_00.Mesh.MN_LHCS_00_SK', 'MN_LHCS_00-4.Mat.MN_LHCS_00-4_MI', '', '', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_LHDI_00.mn_lhdi_00', 'mn_lhdi_00', 'False', 'mn_lhdi_00', 'mn_lhdi_00', '낙인된 감염자', 'mn_lhdi_00.Mesh.MN_LHDI_00_SK', '', 'MN_LHDI_00.Ani.mn_LHDI_00_Ani', 'MN_LHDI_00.Ani.MN_LHDI_00_Physics', '', 'mn_lhdi_00.Mesh.MN_LHDI_WPSK', '', '', '']
+16
+['mn', 'EFDLChar_MN_LHGS_00.mn_lhgs_00', 'mn_lhgs_00', 'False', 'mn_lhgs_00', 'mn_lhgs_00', '거대 시체거미', 'mn_lhgs_00.Mesh.MN_LHGS_00_SK', '', 'mn_lhgs_00.Ani.MN_LHGS_00_Ani', 'mn_lhgs_00.Ani.MN_LHGS_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_LHUM_00.mn_lhum_00', 'mn_lhum_00', 'False', 'mn_lhum_00', 'mn_lhum_00', '불완전 변이체', 'mn_lhum_00.Mesh.MN_LHUM_00_SK', '', 'MN_LHUM_00.Ani.MN_LHUM_00_Ani', 'MN_LHUM_00.Ani.MN_LHUM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_00.MN_LPBF_00', 'MN_LPBF_00', 'False', 'MN_LPBF_00', 'MN_LPBF_00', '블랙풋', 'MN_LPBF_00.Mesh.MN_LPBF_00_Sk', '', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_00.Weapon_R', 'MN_LPBF_00.Weapon_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_00-2.MN_LPBF_00-2', 'MN_LPBF_00-2', 'True', 'MN_LPBF_00', 'MN_LPBF_00', '레드풋', 'MN_LPBF_00.Mesh.MN_LPBF_00_Sk', 'MN_LPBF_00-2.Mat.MN_LPBF_00_MI', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_00.Weapon_R', 'MN_LPBF_00.Weapon_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_01.MN_LPBF_01', 'MN_LPBF_01', 'True', 'MN_LPBF_00', 'MN_LPBF_01', '블랙풋-1 파커A', 'MN_LPBF_01.Mesh.MN_LPBF_01_sk', '', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_01.Mesh.Weapon01_R', 'MN_LPBF_01.Mesh.Weapon01_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_01-1.MN_LPBF_01-1', 'MN_LPBF_01-1', 'True', 'MN_LPBF_00', 'MN_LPBF_01', '블랙풋-2 파커B', 'MN_LPBF_01.Mesh.MN_LPBF_01_sk', 'MN_LPBF_01.Mat.MN_LPBF_01_MI', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_01.Mesh.Weapon01_R', 'MN_LPBF_01.Mesh.Weapon01_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_01-2.MN_LPBF_01-2', 'MN_LPBF_01-2', 'True', 'MN_LPBF_00', 'MN_LPBF_01', '블랙풋-3 레드풋', 'MN_LPBF_01.Mesh.MN_LPBF_01_sk', 'MN_LPBF_01-2.Mat.MN_LPBF_01-2_MI', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_01.Mesh.Weapon01_R', 'MN_LPBF_01.Mesh.Weapon01_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_01-3.MN_LPBF_01-3', 'MN_LPBF_01-3', 'True', 'MN_LPBF_00', 'MN_LPBF_01', '블랙풋-4 베인', 'MN_LPBF_01.Mesh.MN_LPBF_01_sk', 'MN_LPBF_01-3.Mat.MN_LPBF_01-3_MI', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_01.Mesh.Weapon01_R', 'MN_LPBF_01.Mesh.Weapon01_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPBF_02.MN_LPBF_02', 'MN_LPBF_02', 'True', 'MN_LPBF_00', 'MN_LPBF_02', '블랙풋 5', 'MN_LPBF_02.Mesh.MN_LPBF_02_sk', 'MN_LPBF_02.Mat.MN_LPBF_02_MI', 'MN_LPBF_00.Ani.MN_LPBF_00_Ani', 'MN_LPBF_00.Ani.MN_LPBF_00_Physics', '', 'MN_LPBF_02.Mesh.Weapon_R', 'MN_LPBF_02.Mesh.Weapon_L', '', '']
+16
+['MN', 'EFDLChar_MN_LPHS_01-1.MN_LPHS_01-1', 'MN_LPHS_01-1', 'True', 'MN_LPHS_00', 'MN_LPHS_01', '몬테르크 종마', 'NP_LPHS_00.Mesh.NP_LPHS_02_SK', '', 'NP_LPHS_00.Ani.NP_LPHS_02_Ani', 'NP_LPHS_00.Ani.NP_LPHS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRBL_00.MN_LRBL_00', 'MN_LRBL_00', 'False', 'MN_LRBL_00', 'MN_LRBL_00', '화염유충', 'MN_LRBL_00.Mesh.MN_LRBL_00_SK', '', 'MN_LRBL_00.Ani.MN_LRBL_00_Ani', '', '', '', '', '', 'FX_CM_01.Fire.Par_C_Fire_003_1']
+16
+['MN', 'EFDLChar_MN_LRCB_00.MN_LRCB_00', 'MN_LRCB_00', 'False', 'MN_LRCB_00', 'MN_LRCB_00', '체스비숍', 'MN_LRCB_00.Mesh.MN_LRCB_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRCK_00.MN_LRCK_00', 'MN_LRCK_00', 'False', 'MN_LRCK_00', 'MN_LRCK_00', '체스킹', 'MN_LRCK_00.Mesh.MN_LRCK_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRCN_00.MN_LRCN_00', 'MN_LRCN_00', 'False', 'MN_LRCN_00', 'MN_LRCN_00', '체스나이트', 'MN_LRCN_00.Mesh.MN_LRCN_00_SK', '', '', '', '', 'wp_mn_lrcn_00.Mesh.WP_MN_LRCN_00_SK', '', '', '']
+16
+['mn', 'efdlchar_mn_lrcn_00-1.mn_lrcn_00-1', 'mn_lrcn_00-1', 'True', 'mn_lrcn_00', 'mn_lrcn_00', '잊혀진 토병(기마대장)', 'mn_lrcn_00.Mesh.MN_LRCN_00_SK', 'mn_lrcn_00-1.Mat.MN_LRCN_00-1_MI', '', '', '', 'wp_mn_lrcn_00-1.Mesh.WP_MN_LRCN_00-1_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRCP_00.MN_LRCP_00', 'MN_LRCP_00', 'False', 'MN_LRCP_00', 'MN_LRCP_00', '체스폰', 'MN_LRCP_00.Mesh.MN_LRCP_00_SK', '', 'MN_LRCP_00.Ani.MN_LRCP_00_Ani', 'MN_LRCP_00.Ani.MN_LRCP_00_Physics', '', 'MN_LRCP_00.Mesh.WP_MN_LRCP_00_Shield', 'MN_LRCP_00.Mesh.WP_MN_LRCP_00_Sword', '', 'FX_Gibs_00.par.FX_Par_ShieldBreak']
+16
+['MN', 'EFDLChar_MN_LRCP_00-1.MN_LRCP_00-1', 'MN_LRCP_00-1', 'True', 'MN_LRCP_00', 'MN_LRCP_00', '잊혀진 토병', 'MN_LRCP_00.Mesh.MN_LRCP_00_SK', 'MN_LRCP_00-1.Mat.MN_LRCP_00-1_MI', 'MN_LRCP_00.Ani.MN_LRCP_00_Ani', 'MN_LRCP_00.Ani.MN_LRCP_00_Physics', '', 'MN_LRCP_00.Mesh.WP_MN_LRCP_00_Shield', 'MN_LRCP_00.Mesh.WP_MN_LRCP_00_Sword', '', '']
+16
+['MN', 'EFDLChar_MN_LRCQ_00.MN_LRCQ_00', 'MN_LRCQ_00', 'False', 'MN_LRCQ_00', 'MN_LRCQ_00', '체스퀸', 'MN_LRCQ_00.Mesh.MN_LRCQ_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRCR_00.MN_LRCR_00', 'MN_LRCR_00', 'False', 'MN_LRCR_00', 'MN_LRCR_00', '체스룩', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK', '', 'MN_LRCR_00.Ani.MN_LRCR_00_Ani', 'MN_LRCR_00.Ani.MN_LRCR_00_Physics', '', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK_Sh01', '', '', 'FX_CM_01.Explosion.Par_E_PartsExp_LRCR_001']
+16
+['MN', 'EFDLChar_MN_LRCR_00-1.MN_LRCR_00-1', 'MN_LRCR_00-1', 'True', 'MN_LRCR_00', 'MN_LRCR_00', '잊혀진 토병 정예', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK', 'MN_LRCR_00-1.Mat.MN_LRCR_00-1_MI', 'MN_LRCR_00.Ani.MN_LRCR_00_Ani', 'MN_LRCR_00.Ani.MN_LRCR_00_Physics', '', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK_Sh01', '', '', 'fx_mn_01.Par_B_LRCR_Idle_01']
+16
+['MN', 'EFDLChar_MN_LRCR_01.MN_LRCR_01', 'MN_LRCR_01', 'True', 'MN_LRCR_00', 'MN_LRCR_01', '체스룩_변신테스트용', 'MN_LRCR_00.Mesh.MN_LRCR_00_SK', '', 'MN_LRCR_00.Ani.MN_LRCR_00_Ani', 'MN_LRCR_00.Ani.MN_LRCR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRDR_00.MN_LRDR_00', 'MN_LRDR_00', 'False', 'MN_LRDR_00', 'MN_LRDR_00', '불타는 미이라', 'MN_LRDR_00.Mesh.MN_LRDR_00_sk', '', 'MN_LRGM_00.Ani.MN_LRGM_00_Ani', 'MN_LRGM_00.Mesh.MN_LRGM_00_Physics', '', 'WP_MN_LRGM_00.Mesh.WP_MN_LRGM_00_SK', '', '', 'FX_CM_01.Fire.Par_C_Fire_001_1']
+16
+['MN', 'EFDLChar_MN_LRGA_00.MN_LRGA_00', 'MN_LRGA_00', 'False', 'MN_LRGA_00', 'MN_LRGA_00', '고스트 아처', 'MN_LRGA_00.Mesh.MN_LRGA_00_SK', '', 'MN_LRGA_00.Ani.MN_LRGA_00_Ani', 'MN_LRGA_00.Ani.MN_LRGA_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGA_00-1.MN_LRGA_00-1', 'MN_LRGA_00-1', 'True', 'MN_LRGA_00', 'MN_LRGA_00', '루테란 수호 궁수(토병)', 'MN_LRGA_00.Mesh.MN_LRGA_00_SK', 'MN_LRGA_00-1.Mat.MN_LRGA_00-1_MI', 'MN_LRGA_00.Ani.MN_LRGA_00_Ani', 'MN_LRGA_00.Ani.MN_LRGA_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGI_00.MN_LRGI_00', 'MN_LRGI_00', 'False', 'MN_LRGI_00', 'MN_LRGI_00', '가고일', 'MN_LRGI_00.Mesh.MN_LRGI_00_SK', '', 'MN_LRGI_00.Ani.MN_LRGI_00_Ani', 'MN_LRGI_00.Ani.MN_LRGI_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGM_00.MN_LRGM_00', 'MN_LRGM_00', 'False', 'MN_LRGM_00', 'MN_LRGM_00', '루테란 수호법사', 'MN_LRGM_00.Mesh.MN_LRGM_00_SK', '', 'MN_LRGM_00.Ani.MN_LRGM_00_Ani', 'MN_LRGM_00.Mesh.MN_LRGM_00_Physics', '', 'WP_MN_LRGM_00.Mesh.WP_MN_LRGM_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGM_00-1.MN_LRGM_00-1', 'MN_LRGM_00-1', 'True', 'MN_LRGM_00', 'MN_LRGM_00', '법사의 유령', 'MN_LRGM_00.Mesh.MN_LRGM_00_SK', 'MN_LRGM_00-1.Mat.MN_LRGM_00-1_MI', 'MN_LRGM_00.Ani.MN_LRGM_00_Ani', 'MN_LRGM_00.Mesh.MN_LRGM_00_Physics', '', 'WP_MN_LRGM_00.Mesh.WP_MN_LRGM_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGM_00-2.MN_LRGM_00-2', 'MN_LRGM_00-2', 'True', 'MN_LRGM_00', 'MN_LRGM_00', '루테란 수호 법사-2(토병) ', 'MN_LRGM_00.Mesh.MN_LRGM_00_SK', 'MN_LRGM_00-2.Mat.MN_LRGM_00-2_MI', 'MN_LRGM_00.Ani.MN_LRGM_00_Ani', 'MN_LRGM_00.Mesh.MN_LRGM_00_Physics', '', 'WP_MN_LRGM_00.Mesh.WP_MN_LRGM_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGS_00.MN_LRGS_00', 'MN_LRGS_00', 'False', 'MN_LRGS_00', 'MN_LRGS_00', '고스트 솔저', 'MN_LRGS_00.Mesh.MN_LRGS_00_SK', '', 'MN_LRGS_00.Ani.MN_LRGS_00_Ani', 'MN_LRGS_00.Ani.MN_LRGS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRGS_00-1.MN_LRGS_00-1', 'MN_LRGS_00-1', 'True', 'MN_LRGS_00', 'MN_LRGS_00', '루테란 수호 병사(토병)', 'MN_LRGS_00.Mesh.MN_LRGS_00_SK', 'MN_LRGS_00-1.Mat.MN_LRGS_00-1_MI', 'MN_LRGS_00.Ani.MN_LRGS_00_Ani', 'MN_LRGS_00.Ani.MN_LRGS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRPN_00.MN_LRPN_00', 'MN_LRPN_00', 'False', 'MN_LRPN_00', 'MN_LRPN_00', '수호기사', 'MN_LRPN_00.Mesh.MN_LRPN_00_SK', 'MN_LRPN_00.Mat.MN_LRPN_00_MI', 'MN_LRPN_00.Ani.MN_LRPN_00_Ani', 'MN_LRPN_00.Ani.MN_LRPN_00_Physics', '', 'WP_MN_LRPN_00.Mesh.WP_MN_LRPN_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRPN_00-1.MN_LRPN_00-1', 'MN_LRPN_00-1', 'True', 'MN_LRPN_00', 'MN_LRPN_00', '기사의 유령', 'MN_LRPN_00.Mesh.MN_LRPN_00_SK', 'MN_LRPN_00-1.Mat.MN_LRPN_00-1_MI', 'MN_LRPN_00.Ani.MN_LRPN_00_Ani', 'MN_LRPN_00.Ani.MN_LRPN_00_Physics', '', 'WP_MN_LRPN_00.Mesh.WP_MN_LRPN_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRPN_00-2.MN_LRPN_00-2', 'MN_LRPN_00-2', 'True', 'MN_LRPN_00', 'MN_LRPN_00', '루테란 수호 기사-2(토병)', 'MN_LRPN_00.Mesh.MN_LRPN_00_SK', 'MN_LRPN_00-2.Mat.MN_LRPN_00-2_MI', 'MN_LRPN_00.Ani.MN_LRPN_00_Ani', 'MN_LRPN_00.Ani.MN_LRPN_00_Physics', '', 'WP_MN_LRPN_00.Mesh.WP_MN_LRPN_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRRG_00.MN_LRRG_00', 'MN_LRRG_00', 'False', 'MN_LRRG_00', 'MN_LRRG_00', '빛의 가디언', 'MN_LRRG_00.Mesh.MN_LRRG_00_SK', '', 'MN_LRRG_00.Ani.MN_LRRG_00_Ani', 'MN_LRRG_00.Ani.MN_LRRG_00_Physics', '', 'WP_MN_LRRG_00.Mesh.WP_MN_LRRG_00_SK', 'WP_MN_LRRG_01.Mesh.WP_MN_LRRG_01_SK', '', '']
+16
+['MN', 'EFDLChar_MN_LRRG_00-1.MN_LRRG_00-1', 'MN_LRRG_00-1', 'True', 'MN_LRRG_00', 'MN_LRRG_00', '달의 가디언', 'MN_LRRG_00.Mesh.MN_LRRG_00_SK', 'mn_lrrg_00-1.Mat.MN_LRRG_00-1_MI', 'MN_LRRG_00.Ani.MN_LRRG_00_Ani', 'MN_LRRG_00.Ani.MN_LRRG_00_Physics', '', 'WP_MN_LRRG_00.Mesh.WP_MN_LRRG_00_SK', 'WP_MN_LRRG_01.Mesh.WP_MN_LRRG_01_SK', '', '']
+16
+['MN', 'EFDLChar_MN_LRRU_00.MN_LRRU_00', 'MN_LRRU_00', 'False', 'MN_LRRU_00', 'MN_LRRU_00', '백색의 마법사', 'MN_LRRU_00.Mesh.MN_LRRU_00_SK', '', 'MN_LRRU_00.Ani.MN_LRRU_00_Ani', 'MN_LRRU_00.Ani.MN_LRRU_00_Physics', '', '', '', '', 'FX_CM_02.LensFlare.Par_C_LensFlare_04']
+16
+['MN', 'EFDLChar_MN_LRRU_00-1.MN_LRRU_00-1', 'MN_LRRU_00-1', 'True', 'MN_LRRU_00', 'MN_LRRU_00', '로나운의 영혼', 'MN_LRRU_00.Mesh.MN_LRRU_00_SK', 'MN_LRRU_00-1.Mat.MN_LRRU_00-1_MI', 'MN_LRRU_00.Ani.MN_LRRU_00_Ani', 'MN_LRRU_00.Ani.MN_LRRU_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRZG_00.MN_LRZG_00', 'MN_LRZG_00', 'False', 'MN_LRZG_00', 'MN_LRZG_00', '자간_Top', 'MN_LRZG_00.Mesh.MN_LRZG_00_SK', '', 'MN_LRZG_00.Ani.MN_LRZG_00_Top_Ani', 'MN_LRZG_00.Ani.MN_LRZG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LRZG_00-1.MN_LRZG_00-1', 'MN_LRZG_00-1', 'True', 'MN_LRZG_00', 'MN_LRZG_00', '자간_Spiral', 'MN_LRZG_00.Mesh.MN_LRZG_00_SK', '', 'MN_LRZG_00.Ani.MN_LRZG_00_Spiral_Ani', 'MN_LRZG_00.Ani.MN_LRZG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LUCLC_00.MN_LUCLC_00', 'MN_LUCLC_00', 'False', 'MN_LUCLC_00', 'MN_LUCLC_00', '럭키몬스터', 'MN_LUCLC_00.Mesh.MN_LUCLC_00_SK', '', 'MN_LUCLC_00.Ani.MN_LUCLC_00_Ani', 'MN_LUCLC_00.Ani.MN_LUCLC_00_Physics', '', '', '', '', 'FX_MN_03.Par_G_LUCLCaura_001']
+16
+['MN', 'EFDLChar_MN_LUCMT_00.MN_LUCMT_00', 'MN_LUCMT_00', 'False', 'MN_LUCMT_00', 'MN_LUCMT_00', '기괴한 상자', 'MN_LUCMT_00.Mesh.MN_LUCMT_00_SK', '', 'MN_LUCMT_00.Ani.MN_LUCMT_00_Ani', 'MN_LUCMT_00.Mesh.MN_LUCMT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LVBS_00.MN_LVBS_00', 'MN_LVBS_00', 'False', 'MN_LVBS_00', 'MN_LVBS_00', '붉은 부리 백새', 'MN_LVBS_00.Mesh.MN_LVBS_00_SK', '', 'MN_LVBS_00.Ani.MN_LVBS_00_Ani', 'MN_LVBS_00.Ani.MN_LVBS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LVBS_00-1.MN_LVBS_00-1', 'MN_LVBS_00-1', 'True', 'MN_LVBS_00', 'MN_LVBS_00', '붉은부리백새-1 마기에 휩싸인 백새', 'MN_LVBS_00.Mesh.MN_LVBS_00_SK', 'MN_LVBS_00-1.Mat.MN_LVBS_00-1_MI', 'MN_LVBS_00.Ani.MN_LVBS_00_Ani', 'MN_LVBS_00.Ani.MN_LVBS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LVBS_00-2.MN_LVBS_00-2', 'MN_LVBS_00-2', 'True', 'MN_LVBS_00', 'MN_LVBS_00', '붉은부리 바위새', 'MN_LVBS_00.Mesh.MN_LVBS_00_SK', 'MN_LVBS_00-2.Mat.MN_LVBS_00-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LVBS_00-3.MN_LVBS_00-3', 'MN_LVBS_00-3', 'True', 'MN_LVBS_00', 'MN_LVBS_00', '검은부리 바위새', 'MN_LVBS_00.Mesh.MN_LVBS_00_SK', 'MN_LVBS_00-3.Mat.MN_LVBS_00-3_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LVDS_00.MN_LVDS_00', 'MN_LVDS_00', 'False', 'MN_LVDS_00', 'MN_LVDS_00', '먹구름 정령', 'MN_LVDS_00.Mesh.MN_LVDS_00_SK', '', 'MN_LVDS_00.Ani.MN_LVDS_00_Ani', '', '', '', '', '', 'FX_CM_00.Aura.Par_F_LVDS_defult_01']
+16
+['MN', 'EFDLChar_MN_LVDS_00-1.MN_LVDS_00-1', 'MN_LVDS_00-1', 'True', 'MN_LVDS_00', 'MN_LVDS_00', '혼돈의 파편', 'MN_LVDS_00.Mesh.MN_LVDS_00_SK', 'MN_LVDS_00-1.Mat.MN_LVDS_00-1_MI', 'MN_LVDS_00.Ani.MN_LVDS_00_Ani', '', '', '', '', '', 'FX_CM_00.Aura.Par_F_LVDS_defult_01']
+16
+['MN', 'EFDLChar_MN_LVDS_00-2.MN_LVDS_00-2', 'MN_LVDS_00-2', 'True', 'MN_LVDS_00', 'MN_LVDS_00', '어둠의 파편', 'MN_LVDS_00.Mesh.MN_LVDS_00_SK', 'MN_LVDS_00-2.Mat.MN_LVDS_00-2_MI', 'MN_LVDS_00.Ani.MN_LVDS_00_Ani', '', '', '', '', '', 'FX_CM_00.Aura.Par_F_LVDS_defult_01']
+16
+['mn', 'EFDLChar_MN_LVES_00.mn_lves_00', 'mn_lves_00', 'False', 'mn_lves_00', 'mn_lves_00', '에라스모', 'mn_lves_00.Mesh.MN_LVES_00_SK', '', 'MN_LVES_00.Ani.MN_LVES_00_Ani', 'MN_LVES_00.Ani.MN_LVES_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_LVFG_00.MN_LVFG_00', 'MN_LVFG_00', 'False', 'MN_LVFG_00', 'MN_LVFG_00', '불꽃의 환영', 'MN_LVFG_00.Mesh.MN_LVFG_00_SK', '', 'MN_LVFG_00.Ani.MN_LVFG_00_Ani', 'MN_LVFG_00.Ani.MN_LVFG_00_Physics', '', '', '', '', 'FX_CM_01.Fire.Par_E_FireBreath_05']
+16
+['MN', 'EFDLChar_MN_LVMO_00.MN_LVMO_00', 'MN_LVMO_00', 'False', 'MN_LVMO_00', 'MN_LVMO_00', '마나 오벨리스크', 'MN_LVMO_00.Mesh.MN_LVMO_00_SK', '', 'MN_LVMO_00.Ani.MN_LVMO_00_Ani', 'MN_LVMO_00.Mesh.MN_LVMO_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_LVPC_00.mn_lvpc_00', 'mn_lvpc_00', 'False', 'mn_lvpc_00', 'mn_lvpc_00', '오염된 송충이', 'mn_lvpc_00.Mesh.MN_LVPC_00_SK', '', 'MN_UVPL_00.Ani.MN_UVPL_00_Ani', 'MN_UVPL_00.Ani.MN_UVPL_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_LVPM_00.mn_lvpm_00', 'mn_lvpm_00', 'False', 'mn_lvpm_00', 'mn_lvpm_00', '오염된벌침나방', 'mn_lvpm_00.Mesh.MN_LVPM_00_sk', '', 'mn_uvpm_00.Ani.MN_UVPM_00_Ani', 'mn_uvpm_00.Ani.MN_UVPM_00_Physics', '', '', '', '', 'fx_mn_02.Par_E_MonDust_003']
+16
+['mn', 'EFDLChar_MN_LVRS_00.mn_lvrs_00', 'mn_lvrs_00', 'False', 'mn_lvrs_00', 'mn_lvrs_00', '뿌리정령', 'mn_lvrs_00.Mesh.MN_LVRS_00_SK', '', 'MN_LVRS_00.Ani.MN_LVRS_00_Ani', 'MN_LVRS_00.Ani.MN_LVRS_00_Physics', '', '', '', '', 'FX_MN_03.Par_F_LVRS_defult_01']
+16
+['MN', 'EFDLChar_MN_LVSG_00.MN_LVSG_00', 'MN_LVSG_00', 'False', 'MN_LVSG_00', 'MN_LVSG_00', '얼음의 환영', 'MN_LVFG_00.Mesh.MN_LVFG_00_SK', 'MN_LVSG_00.Mat.MN_LVSG_00_MI', 'MN_LVFG_00.Ani.MN_LVFG_00_Ani', 'MN_LVFG_00.Ani.MN_LVFG_00_Physics', '', '', '', '', 'FX_CM_01.Fire.Par_E_FireBreath_05_1']
+16
+['MN', 'EFDLChar_MN_MATGT_00.MN_MATGT_00', 'MN_MATGT_00', 'False', 'MN_MATGT_00', 'MN_MATGT_00', '가란트 ', 'MN_MATGT_00.Mesh.MN_MATGT_00_SK', '', 'MN_MATGT_00.Ani.MN_MATGT_00_Ani', 'MN_MATGT_00.Mesh.MN_MATGT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MATGT_00-1.MN_MATGT_00-1', 'MN_MATGT_00-1', 'True', 'MN_MATGT_00', 'MN_MATGT_00', '어둠의 바위', 'MN_MATGT_00.Mesh.MN_MATGT_00_SK', 'MN_MATGT_00-1.Mat.MN_MATGT_00-1_MI', 'MN_MATGT_00.Ani.MN_MATGT_00_Ani', 'MN_MATGT_00.Mesh.MN_MATGT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MATGT_00-2.MN_MATGT_00-2', 'MN_MATGT_00-2', 'True', 'MN_MATGT_00', 'MN_MATGT_00', '혼돈의 바위', 'MN_MATGT_00.Mesh.MN_MATGT_00_SK', 'MN_MATGT_00-2.Mat.MN_MATGT_00-2_MI', 'MN_MATGT_00.Ani.MN_MATGT_00_Ani', 'MN_MATGT_00.Mesh.MN_MATGT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MDTDBS_00.MN_MDTDBS_00', 'MN_MDTDBS_00', 'False', 'MN_MDTDBS_00', 'MN_MDTDBS_00', '자폭몬스터_소형', 'MN_MDTDBS_00.Mesh.MN_MDTDBS_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MDTDPT_00.MN_MDTDPT_00', 'MN_MDTDPT_00', 'False', 'MN_MDTDPT_00', 'MN_MDTDPT_00', '수호탑', 'MN_MDTDPT_00.Mesh.MN_MDTDPT_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MKIV_00.MN_MKIV_00', 'MN_MKIV_00', 'False', 'MN_MKIV_00', 'MN_MKIV_00', 'MK-IV', 'MN_MKIV_00.Mesh.MN_MKIV_00_SK', '', '', '', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_MRGT_00.mn_mrgt_00', 'mn_mrgt_00', 'False', 'mn_mrgt_00', 'mn_mrgt_00', '모라이거대토병', 'mn_mrgt_00.Mesh.MN_MRGT_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MVDR_00.MN_MVDR_00', 'MN_MVDR_00', 'False', 'MN_MVDR_00', 'MN_MVDR_00', '욕망의 정수', 'MN_MVDR_00.Mesh.MN_MVDR_00_SK', '', 'MN_MVDR_00.Ani.MN_MVDR_00_Ani', 'MN_MVDR_00.Ani.MN_MVDR_00_Physics', '', '', '', '', 'FX_MN_04.Par_I_MVDR_default_01']
+16
+['MN', 'EFDLChar_MN_MVDR_00-1.MN_MVDR_00-1', 'MN_MVDR_00-1', 'True', 'MN_MVDR_00', 'MN_MVDR_00', '탐욕의 정수', 'MN_MVDR_00.Mesh.MN_MVDR_00_SK', 'MN_MVDR_00-1.Mat.MN_MVDR_00-1_MI', 'MN_MVDR_00.Ani.MN_MVDR_00_Ani', 'MN_MVDR_00.Ani.MN_MVDR_00_Physics', '', '', '', '', 'FX_MN_04.Par_I_MVDR_default_01']
+16
+['MN', 'EFDLChar_MN_MVSS_00.MN_MVSS_00', 'MN_MVSS_00', 'False', 'MN_MVSS_00', 'MN_MVSS_00', '봉인석', 'MN_MVSS_00.Mesh.MN_MVSS_00_SK', '', 'MN_MVSS_00.Ani.MN_MVSS_00_Ani', 'MN_MVSS_00.Ani.MN_MVSS_00_Physics', '', '', '', '', 'fx_mn_00.Par_B_MVSS_Shield_01']
+16
+['MN', 'EFDLChar_MN_MVTM_00.MN_MVTM_00', 'MN_MVTM_00', 'False', 'MN_MVTM_00', 'MN_MVTM_00', '위장타마', 'MN_MVTM_00.Mesh.MN_MVTM_00_SK', '', 'MN_MVTM_00.Ani.MN_MVTM_00_Ani', 'MN_MVTM_00.Ani.MN_MVTM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MVTT_00.MN_MVTT_00', 'MN_MVTT_00', 'False', 'MN_MVTT_00', 'MN_MVTT_00', '틸로타', 'MN_MVTT_00.Mesh.MN_MVTT_00_SK', '', 'MN_MVTT_00.Ani.MN_MVTT_00_Ani', 'MN_MVTT_00.Ani.MN_MVTT_00_Physics', '', 'MN_MVTT_00.Mesh.MN_MVTT_00_WP_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_MVTT_01.MN_MVTT_01', 'MN_MVTT_01', 'True', 'MN_MVTT_00', 'MN_MVTT_01', '길 잃은 영혼', 'MN_MVTT_01.Mesh.MN_MVTT_01_SK', '', 'MN_MVTT_01.Ani.MN_MVTT_01_Ani', 'MN_MVTT_01.Ani.MN_MVTT_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_MVTT_01-1.MN_MVTT_01-1', 'MN_MVTT_01-1', 'True', 'MN_MVTT_00', 'MN_MVTT_01', '광란의 마녀', 'MN_MVTT_01.Mesh.MN_MVTT_01_SK', 'MN_MVTT_01-1.Mat.MN_MVTT_01-1_MI', 'MN_MVTT_01.Ani.MN_MVTT_01_Ani', 'MN_MVTT_01.Ani.MN_MVTT_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_ODEP_00.MN_ODEP_00', 'MN_ODEP_00', 'False', 'MN_ODEP_00', 'MN_ODEP_00', '질병_역병전도사', 'MN_ODEP_00.Mesh.MN_ODEP_00_SK', '', 'MN_ODEP_00.Ani.MN_ODEP_00_Ani', 'MN_ODEP_00.Ani.MN_ODEP_00_Physics', '', 'WP_MN_ODEP_00.Mesh.WP_MN_ODEP_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_ODSW_00.MN_ODSW_00', 'MN_ODSW_00', 'False', 'MN_ODSW_00', 'MN_ODSW_00', '소금 웜', 'MN_ODSW_00.Mesh.MN_ODSW_00_SK', '', 'MN_ODSW_00.Ani.MN_ODSW_00_Ani', 'MN_ODSW_00.Ani.MN_ODSW_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_PACS_00.mn_pacs_00', 'mn_pacs_00', 'False', 'mn_pacs_00', 'mn_pacs_00', '저주받은 수호병', 'mn_pacs_00.Mesh.MN_PACS_00_SK', '', 'MN_PACS_00.Ani.MN_PACS_00_Ani', 'MN_PACS_00.Ani.MN_PACS_00_Physics', '', 'mn_pacs_00.Mesh.MN_PACS_00_Weapon_SK', '', '', 'FX_CM_01.Stone.Par_D_StoneLoop_001']
+16
+['MN', 'EFDLChar_MN_PACS_02.MN_PACS_02', 'MN_PACS_02', 'True', 'MN_PACS_00', 'MN_PACS_02', '자폭몬스터_대형', 'MN_PACS_00.Mesh.MN_PACS_00_SK', '', '', '', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_PADD_00.mn_padd_00', 'mn_padd_00', 'False', 'mn_padd_00', 'mn_padd_00', '악마개', 'mn_padd_00.Mesh.MN_PADD_00_SK', '', 'MN_PADD_00.Ani.MN_PADD_00_Ani', 'MN_PADD_00.Ani.MN_PADD_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PADD_00-1.MN_PADD_00-1', 'MN_PADD_00-1', 'True', 'MN_PADD_00', 'MN_PADD_00', '악마개-1', 'MN_PADD_00.Mesh.MN_PADD_00_SK', 'MN_PADD_00-1.Mat.MN_PADD_00-1_MI', '', '', '', '', '', '', '']
+16
+['mn_padd', 'EFDLChar_MN_PADD_00_GS.mn_padd_00_GS', 'mn_padd_00_GS', 'True', 'mn_padd_00_00', 'mn_padd_00_GS', '악마개_지스타용', 'mn_padd_00.Mesh.MN_PADD_00_SK', '', 'MN_PADD_00.Ani.MN_PADD_00_Ani', 'MN_PADD_00.Ani.MN_PADD_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_PAED_00.mn_paed_00', 'mn_paed_00', 'False', 'mn_paed_00', 'mn_paed_00', '진화한 악마개', 'mn_paed_00.Mesh.MN_PAED_00_SK', '', 'MN_PAED_00.Ani.MN_PAED_00_Ani', 'MN_PAED_00.Ani.MN_PAED_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PAED_00-1.MN_PAED_00-1', 'MN_PAED_00-1', 'True', 'MN_PAED_00', 'MN_PAED_00', '진화한악마개-1', 'MN_PAED_00.Mesh.MN_PAED_00_SK', 'MN_PAED_00-1.Mat.MN_PAED_00-1_MI', 'MN_PAED_00.Ani.MN_PAED_00_Ani', 'MN_PAED_00.Ani.MN_PAED_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PAMR_00.MN_PAMR_00', 'MN_PAMR_00', 'False', 'MN_PAMR_00', 'MN_PAMR_00', '메로크', 'MN_PAMR_00.Mesh.MN_PAMR_00_SK', '', 'MN_PAMR_00.Ani.MN_PAMR_00_Ani', 'MN_PAMR_00.Ani.MN_PAMR_00_Physics', '', '', '', '', 'fx_mn_00.Par_B_PAMR_Hand_001']
+16
+['MN', 'EFDLChar_MN_PAMR_00-1.MN_PAMR_00-1', 'MN_PAMR_00-1', 'True', 'MN_PAMR_00', 'MN_PAMR_00', '혼돈의 소환사', 'MN_PAMR_00.Mesh.MN_PAMR_00_SK', 'MN_PAMR_00-1.Mat.MN_PAMR_00-1_MI', 'MN_PAMR_00.Ani.MN_PAMR_00_Ani', 'MN_PAMR_00.Ani.MN_PAMR_00_Physics', '', '', '', '', 'fx_mn_00.Par_B_PAMR-1_Hand_001']
+16
+['MN', 'EFDLChar_MN_PAMR_00-3.MN_PAMR_00-3', 'MN_PAMR_00-3', 'True', 'MN_PAMR_00', 'MN_PAMR_00', '어둠의 소환사', 'MN_PAMR_00.Mesh.MN_PAMR_00_SK', 'MN_PAMR_00-3.Mat.MN_PAMR_00-3_MI', 'MN_PAMR_00.Ani.MN_PAMR_00_Ani', 'MN_PAMR_00.Ani.MN_PAMR_00_Physics', '', '', '', '', 'fx_mn_00.Par_B_PAMR_Hand_001']
+16
+['MN', 'EFDLChar_MN_PAMR_00-4.MN_PAMR_00-4', 'MN_PAMR_00-4', 'True', 'MN_PAMR_00', 'MN_PAMR_00', '메로크-4', 'MN_PAMR_00.Mesh.MN_PAMR_00_SK', 'MN_PAMR_00-4.Mat.MN_PAMR_00-4_MI', 'MN_PAMR_00.Ani.MN_PAMR_00_Ani', 'MN_PAMR_00.Ani.MN_PAMR_00_Physics', '', '', '', '', '']
+16
+['mn', 'EFDLChar_MN_PAVR_00.mn_pavr_00', 'mn_pavr_00', 'False', 'mn_pavr_00', 'mn_pavr_00', '벨모로크', 'mn_pavr_00.Mesh.MN_PAVR_00_SK', '', 'mn_pavr_00.Ani.MN_PAVR_00_Ani', 'mn_pavr_00.Mesh.MN_PAVR_00_Physics', '', 'mn_pavr_00.Mesh.MN_PAVR_00_Weapon_SK', '', '', 'fx_mn_01.Par_D_PAVR_Default_01']
+16
+['MN', 'EFDLChar_MN_PLNSM_00.MN_PLNSM_00', 'MN_PLNSM_00', 'False', 'MN_PLNSM_00', 'MN_PLNSM_00', '스태머', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_SK', 'MN_PLNSM_00.Mat.MN_PLNSM_00_00_MI', 'MN_PLNSM_00.Ani.MN_PLNSM_00_Ani', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PLNSM_00-1.MN_PLNSM_00-1', 'MN_PLNSM_00-1', 'True', 'MN_PLNSM_00', 'MN_PLNSM_00', '스태머-1 뒤틀린동백', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_SK', 'MN_PLNSM_00-1.Mat.MN_PLNSM_00-1_00_MI', 'MN_PLNSM_00-1.Ani.MN_PLNSM_00-1_Ani', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PLNSM_00-2.MN_PLNSM_00-2', 'MN_PLNSM_00-2', 'True', 'MN_PLNSM_00', 'MN_PLNSM_00', '스태머-2 뒤틀린배꽃나무', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_SK', 'MN_PLNSM_00-2.Mat.MN_PLNSM_00-2_00_MI', 'MN_PLNSM_00.Ani.MN_PLNSM_00_Ani', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PLNSM_00-3.MN_PLNSM_00-3', 'MN_PLNSM_00-3', 'True', 'MN_PLNSM_00', 'MN_PLNSM_00', '스태머-3 뒤틀린두리안나무', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_SK', 'MN_PLNSM_00-3.Mat.MN_PLNSM_00-3_00_MI', 'MN_PLNSM_00.Ani.MN_PLNSM_00_Ani', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PLNSM_00-4.MN_PLNSM_00-4', 'MN_PLNSM_00-4', 'True', 'MN_PLNSM_00', 'MN_PLNSM_00', '스태머-4 뒤틀린말부탄나무', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_SK', 'MN_PLNSM_00-4.Mat.MN_PLNSM_00-4_00_MI', 'MN_PLNSM_00.Ani.MN_PLNSM_00_Ani', 'MN_PLNSM_00.Mesh.MN_PLNSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PNSR_00.MN_PNSR_00', 'MN_PNSR_00', 'False', 'MN_PNSR_00', 'MN_PNSR_00', '스포어', 'MN_PNSR_00.Mesh.MN_PNSR_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PNSR_00-1.MN_PNSR_00-1', 'MN_PNSR_00-1', 'True', 'MN_PNSR_00', 'MN_PNSR_00', '스포어 베리 1', 'MN_PNSR_00.Mesh.MN_PNSR_00_SK', 'MN_PNSR_00-1.Mat.MN_PNSR_00-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTBC_00.MN_PTBC_00', 'MN_PTBC_00', 'False', 'MN_PTBC_00', 'MN_PTBC_00', '반디충', 'MN_PTBC_00.Mesh.MN_PTBC_00_SK', '', 'MN_PTBC_00.Ani.MN_PTBC_00_Ani', 'MN_PTBC_00.Ani.MN_PTBC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTBS_00.MN_PTBS_00', 'MN_PTBS_00', 'False', 'MN_PTBS_00', 'MN_PTBS_00', '벤티수쿠로', 'MN_PTBS_00.Mesh.MN_PTBS_00_SK', '', 'MN_PTBS_00.Ani.MN_PTBS_00_Ani', 'MN_PTBS_00.Mesh.MN_PTBS_00_Physics', '', 'MN_PTBS_00.Mesh.Shell_1', 'MN_PTBS_00.Mesh.Shell_2', 'MN_PTBS_00.Mesh.Shell_3', '']
+16
+['MN', 'EFDLChar_MN_PTHT_00.MN_PTHT_00', 'MN_PTHT_00', 'False', 'MN_PTHT_00', 'MN_PTHT_00', '사교도의사냥개', 'MN_PTHT_00.Mesh.MN_PTHT_00_SK', '', 'MN_PTHT_00.Ani.MN_PTHT_00_Ani', 'MN_PTHT_00.Ani.MN_PTHT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTJC_00.MN_PTJC_00', 'MN_PTJC_00', 'False', 'MN_PTJC_00', 'MN_PTJC_00', '자쿠로', 'MN_PTJC_00.Mesh.MN_PTJC_00_SK', '', 'MN_PTJC_00.Ani.MN_PTJC_00_Ani', 'MN_PTJC_00.Ani.MN_PTJC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTJK_00.MN_PTJK_00', 'MN_PTJK_00', 'False', 'MN_PTJK_00', 'MN_PTJK_00', '제키엘', 'MN_PTJK_00.Mesh.MN_PTJK_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTJS_00.MN_PTJS_00', 'MN_PTJS_00', 'False', 'MN_PTJS_00', 'MN_PTJS_00', '새끼 수쿠로', 'MN_PTJS_00.Mesh.MN_PTJS_00_SK', '', 'MN_PTJS_00.Ani.MN_PTJS_00_Ani', 'MN_PTJS_00.Mesh.MN_PTJS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTMD_00.MN_PTMD_00', 'MN_PTMD_00', 'False', 'MN_PTMD_00', 'MN_PTMD_00', '매드의소환수', 'MN_PTMD_00.Mesh.MN_PTMD_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTMG_00.MN_PTMG_00', 'MN_PTMG_00', 'False', 'MN_PTMG_00', 'MN_PTMG_00', '만드라고라', 'MN_PTMG_00.Mesh.MN_PTMG_00_SK', '', 'MN_PTMG_00.Ani.MN_PTMG_00_Ani', 'MN_PTMG_00.Ani.MN_PTMG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTMG_00-1.MN_PTMG_00-1', 'MN_PTMG_00-1', 'True', 'MN_PTMG_00', 'MN_PTMG_00', '만드라고라a', 'MN_PTMG_00.Mesh.MN_PTMG_00_SK', 'MN_PTMG_00-1.Mat.MN_PTMG_00-1_MI', 'MN_PTMG_00.Ani.MN_PTMG_00_Ani', 'MN_PTMG_00.Ani.MN_PTMG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTMG_00-2.MN_PTMG_00-2', 'MN_PTMG_00-2', 'True', 'MN_PTMG_00', 'MN_PTMG_00', '만드라고라b', 'MN_PTMG_00.Mesh.MN_PTMG_00_SK', 'MN_PTMG_00-2.Mat.MN_PTMG_00-2_MI', 'MN_PTMG_00.Ani.MN_PTMG_00_Ani', 'MN_PTMG_00.Ani.MN_PTMG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTMG_00-3.MN_PTMG_00-3', 'MN_PTMG_00-3', 'True', 'MN_PTMG_00', 'MN_PTMG_00', '독가시만드라고라', 'MN_PTMG_00.Mesh.MN_PTMG_00_SK', 'MN_PTMG_00-3.Mat.MN_PTMG_00-3_MI', 'MN_PTMG_00.Ani.MN_PTMG_00_Ani', 'MN_PTMG_00.Ani.MN_PTMG_00_Physics', '', '', '', '', 'fx_mn_01.Par_D_PTMG_Default_01']
+16
+['MN', 'EFDLChar_MN_PTMG_00-4.MN_PTMG_00-4', 'MN_PTMG_00-4', 'True', 'MN_PTMG_00', 'MN_PTMG_00', '식인꽃', 'MN_PTMG_00.Mesh.MN_PTMG_00_SK', 'MN_PTMG_00-4.Mat.MN_PTMG_00-4_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTMG_00-5.MN_PTMG_00-5', 'MN_PTMG_00-5', 'True', 'MN_PTMG_00', 'MN_PTMG_00', '거대 식인꽃', 'MN_PTMG_00.Mesh.MN_PTMG_00_SK', 'MN_PTMG_00-5.Mat.MN_PTMG_00-5_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_00.MN_PTPG_00', 'MN_PTPG_00', 'False', 'MN_PTPG_00', 'MN_PTPG_00', '사교도', 'MN_PTPG_00.Mesh.MN_PTPG_00_SK', '', 'MN_PTPG_00.Ani.MN_PTPG_00_Ani', 'MN_PTPG_00.Ani.MN_PTPG_00_Physics', '', 'WP_MN_PTPG_00.Mesh.WP_MN_PTPG_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_00-3.MN_PTPG_00-3', 'MN_PTPG_00-3', 'True', 'MN_PTPG_00', 'MN_PTPG_00', '사교도 맨손', 'MN_PTPG_00-3.Mesh.MN_PTPG_00-3_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_00-4.MN_PTPG_00-4', 'MN_PTPG_00-4', 'True', 'MN_PTPG_00', 'MN_PTPG_00', '사교도 지팡이 ', 'MN_PTPG_00-3.Mesh.MN_PTPG_00-3_SK', 'MN_PTPG_00-4.Mat.MN_PTPG_00-4_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_00-6.MN_PTPG_00-6', 'MN_PTPG_00-6', 'True', 'MN_PTPG_00', 'MN_PTPG_00', '사교도 책 ', 'MN_PTPG_00-3.Mesh.MN_PTPG_00-3_SK', 'MN_PTPG_00-6.Mat.MN_PTPG_00-6_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_01.MN_PTPG_01', 'MN_PTPG_01', 'True', 'MN_PTPG_00', 'MN_PTPG_01', '광신도', 'MN_PTPG_01.Mesh.MN_PTPG_01_SK', '', 'MN_PTPG_01.Ani.MN_PTPG_01_Ani', 'MN_PTPG_01.Ani.MN_PTPG_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_01-1.MN_PTPG_01-1', 'MN_PTPG_01-1', 'True', 'MN_PTPG_00', 'MN_PTPG_01', '사교도 쇠사슬헤머', 'MN_PTPG_01.Mesh.MN_PTPG_01_SK', '', 'MN_PTPG_01.Ani.MN_PTPG_01_Ani', 'MN_PTPG_01.Ani.MN_PTPG_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_02.MN_PTPG_02', 'MN_PTPG_02', 'True', 'MN_PTPG_00', 'MN_PTPG_02', '사교도-4(맨손) 사교도A', 'MN_PTPG_00.Mesh.MN_PTPG_00_SK', '', 'MN_PTPG_02.Ani.MN_PTPG_02_Ani', 'MN_PTPG_00.Ani.MN_PTPG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_03.MN_PTPG_03', 'MN_PTPG_03', 'True', 'MN_PTPG_00', 'MN_PTPG_03', '사교도-5(지팡이) 사교도B', 'MN_PTPG_00.Mesh.MN_PTPG_00_SK', 'MN_PTPG_04.Mat.MN_PTPG_04_MI', 'MN_PTPG_03.Ani.MN_PTPG_03_Ani', 'MN_PTPG_00.Ani.MN_PTPG_00_Physics', '', 'WP_MN_PTPG_00-4.Mesh.WP_MN_PTPG_00-4_sk', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_04.MN_PTPG_04', 'MN_PTPG_04', 'True', 'MN_PTPG_00', 'MN_PTPG_04', '사교도-6(책) 사교도D', 'MN_PTPG_04.Mesh.MN_PTPG_04_Sk', '', 'MN_PTPG_04.Ani.MN_PTPG_04_Ani', 'MN_PTPG_00.Ani.MN_PTPG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPG_05.MN_PTPG_05', 'MN_PTPG_05', 'True', 'MN_PTPG_00', 'MN_PTPG_05', '사교도-7 사교도 선동꾼', 'MN_PTPG_00.Mesh.MN_PTPG_00_SK', 'MN_PTPG_05.Mat.MN_PTPG_05_MI', 'MN_PTPG_02.Ani.MN_PTPG_02_Ani', 'MN_PTPG_00.Ani.MN_PTPG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTPS_00.MN_PTPS_00', 'MN_PTPS_00', 'False', 'MN_PTPS_00', 'MN_PTPS_00', '중독된 벤티수쿠로', 'MN_PTPS_00.Mesh.MN_PTPS_00_SK', '', 'MN_PTPS_00.Ani.MN_PTPS_00_Ani', 'MN_PTPS_00.Mesh.MN_PTPS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTRE_00.MN_PTRE_00', 'MN_PTRE_00', 'False', 'MN_PTRE_00', 'MN_PTRE_00', '붉은 눈 늑대', 'MN_PTRE_00.Mesh.MN_PTRE_00_SK', '', 'MN_PTRE_00.Ani.MN_PTRE_00_Ani', 'MN_PTRE_00.Ani.MN_PTRE_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTRE_00-1.MN_PTRE_00-1', 'MN_PTRE_00-1', 'True', 'MN_PTRE_00', 'MN_PTRE_00', '굶주린 늑대', 'MN_PTRE_00.Mesh.MN_PTRE_00_SK', 'MN_PTRE_00-1.Mat.MN_PTRE_00-1_MI', 'MN_PTRE_00.Ani.MN_PTRE_00_Ani', 'MN_PTRE_00.Ani.MN_PTRE_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTRE_00-2.MN_PTRE_00-2', 'MN_PTRE_00-2', 'True', 'MN_PTRE_00', 'MN_PTRE_00', '달빛 늑대', 'MN_PTRE_00.Mesh.MN_PTRE_00_SK', 'MN_PTRE_00-2.Mat.MN_PTRE_00-2_MI', 'MN_PTRE_00.Ani.MN_PTRE_00_Ani', 'MN_PTRE_00.Ani.MN_PTRE_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTRE_00-3.MN_PTRE_00-3', 'MN_PTRE_00-3', 'True', 'MN_PTRE_00', 'MN_PTRE_00', '붉은눈 늑대-3 흙빛갈기늑대', 'MN_PTRE_00.Mesh.MN_PTRE_00_SK', 'MN_PTRE_00-3.Mat.MN_PTRE_00-3_MI', 'MN_PTRE_00.Ani.MN_PTRE_00_Ani', 'MN_PTRE_00.Ani.MN_PTRE_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTRW_00.MN_PTRW_00', 'MN_PTRW_00', 'False', 'MN_PTRW_00', 'MN_PTRW_00', '붉은눈 가시늑대', 'MN_PTRW_00.Mesh.MN_PTRW_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTSC_00.MN_PTSC_00', 'MN_PTSC_00', 'False', 'MN_PTSC_00', 'MN_PTSC_00', '수쿠로', 'MN_PTSC_00.Mesh.MN_PTSC_00_SK', '', 'MN_PTSC_00.Ani.MN_PTSC_00_Ani', 'MN_PTSC_00.Mesh.MN_PTSC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTSM_00.MN_PTSM_00', 'MN_PTSM_00', 'False', 'MN_PTSM_00', 'MN_PTSM_00', '제사장 매드', 'MN_PTSM_00.Mesh.MN_PTSM_00_SK', '', 'MN_PTSM_00.Ani.MN_PTSM_00_Ani', 'MN_PTSM_00.Ani.MN_PTSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTSM_00-1.MN_PTSM_00-1', 'MN_PTSM_00-1', 'True', 'MN_PTSM_00', 'MN_PTSM_00', '제사장 매드-1 사교도제사장 ', 'MN_PTSM_00.Mesh.MN_PTSM_00_SK', '', 'MN_PTSM_00-1.Ani.MN_PTSM_00_1_Ani', 'MN_PTSM_00.Ani.MN_PTSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTSM_00-2.MN_PTSM_00-2', 'MN_PTSM_00-2', 'True', 'MN_PTSM_00', 'MN_PTSM_00', '제사장 매드-2 사교도대제사장', 'MN_PTSM_00.Mesh.MN_PTSM_00_SK', '', 'MN_PTSM_00-1.Ani.MN_PTSM_00_1_Ani', 'MN_PTSM_00.Ani.MN_PTSM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_00.MN_PTWS_00', 'MN_PTWS_00', 'False', 'MN_PTWS_00', 'MN_PTWS_00', '수해거미', 'MN_PTWS_00.Mesh.MN_PTWS_00_SK', 'MN_PTWS_00.Mat.MN_PTWS_00_MI', 'MN_PTWS_00.Ani.MN_PTWS_00_Ani', 'MN_PTWS_00.Ani.MN_PTWS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_00-1.MN_PTWS_00-1', 'MN_PTWS_00-1', 'True', 'MN_PTWS_00', 'MN_PTWS_00', '거대독거미', 'MN_PTWS_00.Mesh.MN_PTWS_00_SK', 'MN_PTWS_00-1.Mat.MN_PTWS_00-1_MI', 'MN_PTWS_00.Ani.MN_PTWS_00_Ani', 'MN_PTWS_00.Ani.MN_PTWS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_00-2.MN_PTWS_00-2', 'MN_PTWS_00-2', 'True', 'MN_PTWS_00', 'MN_PTWS_00', '흑장미무늬 독거미A', 'MN_PTWS_00.Mesh.MN_PTWS_00_SK', 'MN_PTWS_00-2.Mat.MN_PTWS_00-2_MI', 'MN_PTWS_00.Ani.MN_PTWS_00_Ani', 'MN_PTWS_00.Ani.MN_PTWS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_00-3.MN_PTWS_00-3', 'MN_PTWS_00-3', 'True', 'MN_PTWS_00', 'MN_PTWS_00', '흑장미무늬 독거미B', 'MN_PTWS_00.Mesh.MN_PTWS_00_SK', 'MN_PTWS_00-3.Mat.MN_PTWS_00-3_MI', 'MN_PTWS_00.Ani.MN_PTWS_00_Ani', 'MN_PTWS_00.Ani.MN_PTWS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_01.MN_PTWS_01', 'MN_PTWS_01', 'True', 'MN_PTWS_00', 'MN_PTWS_01', '새끼 수해 거미', 'MN_PTWS_01.Mesh.MN_PTWS_01_SK', 'MN_PTWS_01.Mat.MN_PTWS_01_MI', 'MN_PTWS_01.Ani.MN_PTWS_01_Ani', 'MN_PTWS_01.Ani.MN_PTWS_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_01-1.MN_PTWS_01-1', 'MN_PTWS_01-1', 'True', 'MN_PTWS_00', 'MN_PTWS_01', '갈고리거미', 'MN_PTWS_01.Mesh.MN_PTWS_01_SK', 'MN_PTWS_01-1.Mat.MN_PTWS_01-1_MI', 'MN_PTWS_01.Ani.MN_PTWS_01_Ani', 'MN_PTWS_01.Ani.MN_PTWS_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_PTWS_01-2.MN_PTWS_01-2', 'MN_PTWS_01-2', 'True', 'MN_PTWS_00', 'MN_PTWS_01', '바위 거미', 'MN_PTWS_01.Mesh.MN_PTWS_01_SK', 'MN_PTWS_01-2.Mat.MN_PTWS_01-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RAET_00.MN_RAET_00', 'MN_RAET_00', 'False', 'MN_RAET_00', 'MN_RAET_00', '예가티', 'MN_RAET_00.Mesh.MN_RAET_00_SK', '', 'MN_RAET_00.Ani.MN_RAET_00_Ani', 'MN_RAET_00.Ani.MN_RAET_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RAHF_00.MN_RAHF_00', 'MN_RAHF_00', 'False', 'MN_RAHF_00', 'MN_RAHF_00', '밀짚투사', 'MN_RAHF_00.Mesh.MN_RAHF_00_SK', '', 'MN_RAHF_00.Ani.MN_RAHF_00_Ani', 'MN_RAHF_00.Ani.MN_RAHF_00_Physics', '', 'MN_RAHF_00.Mesh.WP_MN_RAHF_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RAOW_00.MN_RAOW_00', 'MN_RAOW_00', 'False', 'MN_RAOW_00', 'MN_RAOW_00', '오크전사', 'MN_RAOW_00.Mesh.MN_RAOW_00_Sk', '', 'MN_RAOW_00.Ani.MN_RAOW_00_Ani', 'MN_RAOW_00.Ani.MN_RAOW_00_Physics', '', 'WP_MN_RAOW_00.Mesh.WP_MN_RAOW_01_SK', 'WP_MN_RAOW_00.Mesh.WP_MN_RAOW_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_RASM_00.MN_RASM_00', 'MN_RASM_00', 'False', 'MN_RASM_00', 'MN_RASM_00', '톰니쥐', 'MN_RASM_00.Mesh.MN_RASM_00_SK', '', 'MN_RASM_00.Ani.MN_RASM_00_Ani', 'MN_RASM_00.Ani.MN_RASM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RASM_00-1.MN_RASM_00-1', 'MN_RASM_00-1', 'True', 'MN_RASM_00', 'MN_RASM_00', '땅굴 쥐', 'MN_RASM_00.Mesh.MN_RASM_00_SK', 'MN_RASM_00-1.Mat.MN_RASM_00-1_MI', 'MN_RASM_00.Ani.MN_RASM_00_Ani', 'MN_RASM_00.Ani.MN_RASM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RASM_00-2.MN_RASM_00-2', 'MN_RASM_00-2', 'True', 'MN_RASM_00', 'MN_RASM_00', '소라잡이쥐', 'MN_RASM_00.Mesh.MN_RASM_00_SK', 'MN_RASM_00-2.Mat.MN_RASM_00_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RAWS_00.MN_RAWS_00', 'MN_RAWS_00', 'False', 'MN_RAWS_00', 'MN_RAWS_00', '투사노예', 'MN_RAWS_00.Mesh.MN_RAWS_00_SK', '', 'MN_RAWS_00.Ani.MN_RAWS_00_Ani', 'MN_RAWS_00.Ani.MN_RAWS_00_Physics', '', 'MN_RAWS_00.Mesh.WP_MN_RAWS_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RAWS_01.MN_RAWS_01', 'MN_RAWS_01', 'True', 'MN_RAWS_00', 'MN_RAWS_01', '투사노예-1 맨손', 'MN_RAWS_00.Mesh.MN_RAWS_00_SK', '', 'MN_RAWS_01.Ani.MN_RAWS_01_Ani', 'MN_RAWS_00.Ani.MN_RAWS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REBA_00.MN_REBA_00', 'MN_REBA_00', 'False', 'MN_REBA_00', 'MN_REBA_00', '부서진 제단', 'ITR_00349.mesh_new.ITR_00349_SK', '', '', 'ITR_00349.mesh_new.ITR_00349_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REBH_00.MN_REBH_00', 'MN_REBH_00', 'False', 'MN_REBH_00', 'MN_REBH_00', '베르하트', 'MN_REBH_00.Mesh.MN_REBH_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REBM_00.MN_REBM_00', 'MN_REBM_00', 'False', 'MN_REBM_00', 'MN_REBM_00', '디오리카바구미', 'MN_REBM_00.Mesh.MN_REBM_00_SK', '', 'MN_REBM_00.Ani.MN_REBM_00_Ani', 'MN_REBM_00.Ani.MN_REBM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RECS_00.MN_RECS_00', 'MN_RECS_00', 'False', 'MN_RECS_00', 'MN_RECS_00', '평원 까마귀', 'MN_RECS_00.Mesh.MN_RECS_00_SK', '', 'MN_RECS_00.Ani.MN_RECS_00_Ani', 'MN_RECS_00.Ani.MN_RECS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REDG_00.MN_REDG_00', 'MN_REDG_00', 'False', 'MN_REDG_00', 'MN_REDG_00', '단검암살자', 'MN_REDG_00.Mesh.MN_REDG_00_SK', 'MN_REDG_00.Mat.MN_REDG_00_MI', 'MN_REDG_00.Ani.MN_REDG_00_Ani', 'MN_REDG_00.Mesh.MN_REDG_00_Physics', '', 'WP_MN_PTPG_00.Mesh.WP_MN_PTPG_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REDG_01.MN_REDG_01', 'MN_REDG_01', 'True', 'MN_REDG_00', 'MN_REDG_01', '쌍검암살자', 'MN_REDG_00.Mesh.MN_REDG_00_SK', 'MN_REDG_01.Mat.MN_REDG_01_MI', 'MN_REDG_01.Ani.MN_REDG_01_Ani', 'MN_REDG_00.Mesh.MN_REDG_00_Physics', '', 'WP_MN_ASDD_00.Mesh.WP_MN_ASDD_00_SK', 'WP_MN_ASDD_00.Mesh.WP_MN_ASDD_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_REDG_02.MN_REDG_02', 'MN_REDG_02', 'True', 'MN_REDG_00', 'MN_REDG_02', '손쇠뇌암살자', 'MN_REDG_00.Mesh.MN_REDG_00_SK', 'MN_REDG_02.Mat.MN_REDG_02_MI', 'MN_REDG_02.Ani.MN_REDG_02_Ani', 'MN_REDG_00.Mesh.MN_REDG_00_Physics', '', 'WP_MN_REDG_00.Mesh.WP_MN_REDG_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REDG_03.MN_REDG_03', 'MN_REDG_03', 'True', 'MN_REDG_00', 'MN_REDG_03', '부상당한암살자', 'MN_REDG_00.Mesh.MN_REDG_00_SK', 'MN_REDG_03.Mat.MN_REDG_03_MI', 'MN_REDG_03.Ani.MN_REDG_03_Ani', 'MN_REDG_00.Mesh.MN_REDG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RELP_00.MN_RELP_00', 'MN_RELP_00', 'False', 'MN_RELP_00', 'MN_RELP_00', '임프', 'MN_RELP_00.Mesh.MN_RELP_00_SK', 'MN_RELP_00.Mat.MN_RELP_00_MI', 'MN_RELP_00.Ani.MN_RELP_00_Ani', 'MN_RELP_00.Ani.MN_RELP_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RELP_00-1.MN_RELP_00-1', 'MN_RELP_00-1', 'True', 'MN_RELP_00', 'MN_RELP_00', '임프-1 불타는 임프', 'MN_RELP_00.Mesh.MN_RELP_00_SK', 'MN_RELP_00-1.Mat.MN_RELP_00-1_MI', 'MN_RELP_00.Ani.MN_RELP_00_Ani', 'MN_RELP_00.Ani.MN_RELP_00_Physics', '', '', '', '', 'FX_MN_03.Par_H_RELP_00_1_Fire_01']
+16
+['MN', 'EFDLChar_MN_RELP_01.MN_RELP_01', 'MN_RELP_01', 'True', 'MN_RELP_00', 'MN_RELP_01', '임프_1 마법사 임프', 'MN_RELP_00.Mesh.MN_RELP_00_SK', 'MN_RELP_01.Mat.MN_RELP_01_MI', 'MN_RELP_01.Ani.MN_RELP_01_Ani', 'MN_RELP_00.Ani.MN_RELP_00_Physics', '', 'MN_RELP_01.Mesh.WP_MN_RELP_01_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMK_00.MN_REMK_00', 'MN_REMK_00', 'False', 'MN_REMK_00', 'MN_REMK_00', '망령의 기사', 'MN_REMK_00.Mesh.MN_REMK_00_SK', 'MN_REMK_00.Mat.MN_REMK_00_MI', 'MN_REMK_00.Ani.MN_REMK_00_Ani', 'MN_REMK_00.Mesh.MN_REMK_00_Physics', '', 'WP_MN_REMK_00.Mesh.WP_MN_REMK_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMM_00.MN_REMM_00', 'MN_REMM_00', 'False', 'MN_REMM_00', 'MN_REMM_00', '미믹', 'MN_REMM_00.Mesh.MN_REMM_00_Sk', 'MN_REMM_00.Mat.MN_REMM_00_MI', 'MN_REMM_00.Ani.MN_REMM_00_Ani', 'MN_REMM_00.Ani.MN_REMM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMN_00.MN_REMN_00', 'MN_REMN_00', 'False', 'MN_REMN_00', 'MN_REMN_00', '마네스', 'MN_REMN_00.Mesh.MN_REMN_00_SK', 'MN_REMN_00.Mat.MN_REMN_00_MI', 'MN_REMN_00.Ani.MN_REMN_00_Ani', 'MN_REMN_00.Mesh.MN_REMN_00_Physics', '', 'WP_MN_REMN_00.Mesh.WP_MN_REMN_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMP_00.MN_REMP_00', 'MN_REMP_00', 'False', 'MN_REMP_00', 'MN_REMP_00', '모르페오', 'MN_REMP_00.Mesh.MN_REMP_00_SK', '', '', '', '', 'MN_Head_FE03_007.Mesh.MN_Head_FE03_007_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMP_01.MN_REMP_01', 'MN_REMP_01', 'True', 'MN_REMP_00', 'MN_REMP_01', '보상여2', 'MN_REMP_00.Mesh.MN_REMP_00_SK', 'MN_REMP_01.Mat.MN_REMP_01_MI', 'HM_FE03.ani_0000.HM_FE03_0000_00A_Nor_Ani', 'HM_FE03.Mesh.HM_FE03_Physics', '', 'MN_Head_FE03_007.Mesh.MN_Head_FE03_007_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMP_02.MN_REMP_02', 'MN_REMP_02', 'True', 'MN_REMP_00', 'MN_REMP_02', '마야', 'MN_REMP_00.Mesh.MN_REMP_00_SK', 'MN_REMP_02.Mat.MN_REMP_02_MI', 'HM_FE03.ani_0000.HM_FE03_0000_00A_Nor_Ani', 'HM_FE03.Mesh.HM_FE03_Physics', '', 'WP_NP_LPNE_00-1.Mesh.WP_NP_LPNE_00-1_SK', 'MN_Head_FE03_007.Mesh.MN_Head_FE03_007_SK', '', '']
+16
+['MN', 'EFDLChar_MN_REMT_00.MN_REMT_00', 'MN_REMT_00', 'False', 'MN_REMT_00', 'MN_REMT_00', '갈기호랑이', 'MN_REMT_00.Mesh.MN_REMT_00_SK', '', 'MN_REMT_00.Ani.MN_REMT_00_Ani', 'MN_REMT_00.Mesh.MN_REMT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REMT_00-1.MN_REMT_00-1', 'MN_REMT_00-1', 'True', 'MN_REMT_00', 'MN_REMT_00', '고원호랑이', 'MN_REMT_00.Mesh.MN_REMT_00_SK', 'MN_REMT_00-1.Mat.MN_REMT_00-1_MI', 'MN_REMT_00.Ani.MN_REMT_00_Ani', 'MN_REMT_00.Mesh.MN_REMT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPC_00.MN_REPC_00', 'MN_REPC_00', 'False', 'MN_REPC_00', 'MN_REPC_00', '흰수염순록', 'MN_REPC_00.Mesh.MN_REPC_00_SK', '', 'MN_REPC_00.Ani.MN_REPC_00_Ani', 'MN_REPC_00.Mesh.MN_REPC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPC_00-1.MN_REPC_00-1', 'MN_REPC_00-1', 'True', 'MN_REPC_00', 'MN_REPC_00', '외뿔고원순록', 'MN_REPC_00.Mesh.MN_REPC_00_SK', 'MN_REPC_00-1.Mat.MN_REPC_00-1_MI', 'MN_REPC_00.Ani.MN_REPC_00_Ani', 'MN_REPC_00.Mesh.MN_REPC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPC_00-2.MN_REPC_00-2', 'MN_REPC_00-2', 'True', 'MN_REPC_00', 'MN_REPC_00', '고원순록', 'MN_REPC_00.Mesh.MN_REPC_00_SK', 'MN_REPC_00-2.Mat.MN_REPC_00-2_MI', 'MN_REPC_00.Ani.MN_REPC_00_Ani', 'MN_REPC_00.Mesh.MN_REPC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPG_00.MN_REPG_00', 'MN_REPG_00', 'False', 'MN_REPG_00', 'MN_REPG_00', '돼지', 'PR_DPCR_01.Mesh.PR_DPCR_01', '', 'PR_DPCR_01.Ani.PR_DPCR_01_ANi', 'PR_DPCR_01.Ani.PR_DPCR_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPR_00.MN_REPR_00', 'MN_REPR_00', 'False', 'MN_REPR_00', 'MN_REPR_00', '피거렛', 'MN_REPR_00.Mesh.MN_REPR_00_SK', 'MN_REPR_00.Mat.MN_REPR_00_MI', 'MN_REPR_00.Ani.MN_REPR_00_Ani', 'MN_REPR_00.Ani.MN_REPR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPR_00-1.MN_REPR_00-1', 'MN_REPR_00-1', 'True', 'MN_REPR_00', 'MN_REPR_00', '새끼 피거렛', 'MN_REPR_00.Mesh.MN_REPR_00_SK', 'mn_repr_00-1.Mat.MN_REPR_00-1_MI', 'MN_REPR_00.Ani.MN_REPR_00_Ani', 'MN_REPR_00.Ani.MN_REPR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPR_00-2.MN_REPR_00-2', 'MN_REPR_00-2', 'True', 'MN_REPR_00', 'MN_REPR_00', '어미 피거렛', 'MN_REPR_00.Mesh.MN_REPR_00_SK', 'mn_repr_00-2.Mat.MN_REPR_00-2_MI', 'MN_REPR_00.Ani.MN_REPR_00_Ani', 'MN_REPR_00.Ani.MN_REPR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REPR_00-3.MN_REPR_00-3', 'MN_REPR_00-3', 'True', 'MN_REPR_00', 'MN_REPR_00', '피거렛-3 광기에 물든 피거렛', 'MN_REPR_00.Mesh.MN_REPR_00_SK', 'mn_repr_00-3.Mat.MN_REPR_00-3_MI', 'MN_REPR_00.Ani.MN_REPR_00_Ani', 'MN_REPR_00.Ani.MN_REPR_00_Physics', '', '', '', '', 'FX_MN_03.Par_G_REPRAura_001']
+16
+['MN', 'EFDLChar_MN_REPR_00-4.MN_REPR_00-4', 'MN_REPR_00-4', 'True', 'MN_REPR_00', 'MN_REPR_00', '피거렛-4 광기에 물든 새끼 피거렛', 'MN_REPR_00.Mesh.MN_REPR_00_SK', 'mn_repr_00-4.Mat.MN_REPR_00-4_MI', 'MN_REPR_00.Ani.MN_REPR_00_Ani', 'MN_REPR_00.Ani.MN_REPR_00_Physics', '', '', '', '', 'FX_MN_03.Par_G_REPRAura_001']
+16
+['MN', 'EFDLChar_MN_REUP_00.MN_REUP_00', 'MN_REUP_00', 'False', 'MN_REUP_00', 'MN_REUP_00', '광대', 'MN_REUP_00.Mesh.MN_REUP_00_SK', '', 'MN_REUP_00.Ani.MN_REUP_00_Ani', 'MN_REUP_00.Ani.MN_REUP_00_Physics', '', 'WP_MN_PTPG_00.Mesh.WP_MN_PTPG_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REUP_00-1.MN_REUP_00-1', 'MN_REUP_00-1', 'True', 'MN_REUP_00', 'MN_REUP_00', '춤추는 광대', 'MN_REUP_00.Mesh.MN_REUP_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REUP_01.MN_REUP_01', 'MN_REUP_01', 'True', 'MN_REUP_00', 'MN_REUP_01', '나팔부는 광대', 'MN_REUP_00.Mesh.MN_REUP_00_SK', 'MN_REUP_01.Mat.MN_REUP_01_MI', 'MN_REUP_01.Ani.MN_REUP_01_Ani', 'MN_REUP_00.Ani.MN_REUP_00_Physics', '', 'WP_MN_REUP_01.Mesh.WP_MN_REUP_01_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_REUP_02.MN_REUP_02', 'MN_REUP_02', 'True', 'MN_REUP_00', 'MN_REUP_02', '춤추는 광대', 'MN_REUP_00.Mesh.MN_REUP_00_SK', 'MN_REUP_02.Mat.MN_REUP_02_MI', 'MN_REUP_02.Ani.MN_REUP_02_Ani', 'MN_REUP_00.Ani.MN_REUP_00_Physics', '', 'MN_REUP_02.Mesh.WP_MN_REUP_02_SK', 'MN_REUP_02.Mesh.WP_MN_REUP_02_SK', '', '']
+16
+['MN', 'EFDLChar_MN_REWB_00.MN_REWB_00', 'MN_REWB_00', 'False', 'MN_REWB_00', 'MN_REWB_00', '엄니 멧돼지', 'MN_REWB_00.Mesh.MN_REWB_00_SK', '', 'MN_REWB_00.Ani.MN_REWB_00_Ani', 'MN_REWB_00.Mesh.MN_REWB_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REWB_00-1.MN_REWB_00-1', 'MN_REWB_00-1', 'True', 'MN_REWB_00', 'MN_REWB_00', '고원 멧돼지', 'MN_REWB_00.Mesh.MN_REWB_00_SK', 'mn_rewb_00-1.Mat.MN_REWB_00-1_MI', 'MN_REWB_00.Ani.MN_REWB_00_Ani', 'MN_REWB_00.Mesh.MN_REWB_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_REWB_00-2.MN_REWB_00-2', 'MN_REWB_00-2', 'True', 'MN_REWB_00', 'MN_REWB_00', '엄니 멧돼지-2 바위멧돼지', 'MN_REWB_00.Mesh.MN_REWB_00_SK', 'mn_rewb_00-2.Mat.MN_REWB_00-2_MI', 'MN_REWB_00.Ani.MN_REWB_00_Ani', 'MN_REWB_00.Mesh.MN_REWB_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHAT_00.MN_RHAT_00', 'MN_RHAT_00', 'False', 'MN_RHAT_00', 'MN_RHAT_00', '심해촉수', 'MN_RHAT_00.Mesh.MN_RHAT_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHAT_00-1.MN_RHAT_00-1', 'MN_RHAT_00-1', 'True', 'MN_RHAT_00', 'MN_RHAT_00', '심해촉수-1 악마촉수', 'MN_RHAT_00.Mesh.MN_RHAT_00_SK', 'MN_RHAT_00-1.Mat.MN_RHAT_00-1_eye_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLCHAR_MN_RHAW_00.MN_RHAW_00', 'MN_RHAW_00', 'False', 'MN_RHAW_00', 'MN_RHAW_00', '붉은눈알호 사술사', 'MN_RHAW_00.Mesh.MN_RHAW_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHAW_00-1.MN_RHAW_00-1', 'MN_RHAW_00-1', 'True', 'MN_RHAW_00', 'MN_RHAW_00', '붉은고래호 사술사', 'MN_RHAW_00.Mesh.MN_RHAW_00_SK', 'MN_RHAW_00.Mat.MN_RHAW_00-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHAW_00-2.MN_RHAW_00-2', 'MN_RHAW_00-2', 'True', 'MN_RHAW_00', 'MN_RHAW_00', '붉은발톱호 사술사 ', 'MN_RHAW_00.Mesh.MN_RHAW_00_SK', 'MN_RHAW_00.Mat.MN_RHAW_00-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHFF_00.MN_RHFF_00', 'MN_RHFF_00', 'False', 'MN_RHFF_00', 'MN_RHFF_00', '어인해적', 'MN_RHFF_00.Mesh.MN_RHFF_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHFF_00-1.MN_RHFF_00-1', 'MN_RHFF_00-1', 'True', 'MN_RHFF_00', 'MN_RHFF_00', '어인해적 해적단', 'MN_RHFF_00.Mesh.MN_RHFF_00_SK', 'MN_RHFF_00.Mat.MN_RHFF_00-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHFF_01.MN_RHFF_01', 'MN_RHFF_01', 'True', 'MN_RHFF_00', 'MN_RHFF_01', '어인해적 약탈자', 'MN_RHFF_00.Mesh.MN_RHFF_00_SK', 'MN_RHFF_00.Mat.MN_RHFF_01_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHFF_02.MN_RHFF_02', 'MN_RHFF_02', 'True', 'MN_RHFF_00', 'MN_RHFF_02', '어인해적 소총수', 'MN_RHFF_00.Mesh.MN_RHFF_00_SK', 'MN_RHFF_00.Mat.MN_RHFF_02_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHFF_03.MN_RHFF_03', 'MN_RHFF_03', 'True', 'MN_RHFF_00', 'MN_RHFF_03', '어인해적 무법자', 'MN_RHFF_00.Mesh.MN_RHFF_00_SK', 'MN_RHFF_00.Mat.MN_RHFF_03_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHFF_04.MN_RHFF_04', 'MN_RHFF_04', 'True', 'MN_RHFF_00', 'MN_RHFF_04', '어인해적 세티노 ', 'MN_RHFF_00.Mesh.MN_RHFF_00_SK', 'MN_RHFF_00.Mat.MN_RHFF_04_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_00.MN_RHKP_00', 'MN_RHKP_00', 'False', 'MN_RHKP_00', 'MN_RHKP_00', '핏빛칼날호 선장', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_00_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_01.MN_RHKP_01', 'MN_RHKP_01', 'True', 'MN_RHKP_00', 'MN_RHKP_01', '핏빛칼날호 선원 정예병', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_01_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_01-1.MN_RHKP_01-1', 'MN_RHKP_01-1', 'True', 'MN_RHKP_00', 'MN_RHKP_01', '붉은고래해적 정예병', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_01-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_01-2.MN_RHKP_01-2', 'MN_RHKP_01-2', 'True', 'MN_RHKP_00', 'MN_RHKP_01', '붉은발톱호 정예병', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_01-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_01-3.MN_RHKP_01-3', 'MN_RHKP_01-3', 'True', 'MN_RHKP_00', 'MN_RHKP_01', '붉은점호 정예병', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_01-3_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_02.MN_RHKP_02', 'MN_RHKP_02', 'True', 'MN_RHKP_00', 'MN_RHKP_02', '붉은고래해적 포격수', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_02_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_02-1.MN_RHKP_02-1', 'MN_RHKP_02-1', 'True', 'MN_RHKP_00', 'MN_RHKP_02', '붉은안개호 부선장', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_02-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_03.MN_RHKP_03', 'MN_RHKP_03', 'True', 'MN_RHKP_00', 'MN_RHKP_03', '붉은안개호 일등항해사', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_03_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHKP_04.MN_RHKP_04', 'MN_RHKP_04', 'True', 'MN_RHKP_00', 'MN_RHKP_04', '붉은발톱호 배급관', 'MN_RHKP_00.Mesh.MN_RHKP_00_SK', 'MN_RHKP_00.Mat.MN_RHKP_04_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLCHAR_MN_RHWA_00.MN_RHWA_00', 'MN_RHWA_00', 'False', 'MN_RHWA_00', 'MN_RHWA_00', '붉은눈알호', 'MN_RHAW_00.Mesh.MN_RHAW_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWA_00-1.MN_RHWA_00-1', 'MN_RHWA_00-1', 'True', 'MN_RHWA_00', 'MN_RHWA_00', '붉은고래호', 'MN_RHAW_00.Mesh.MN_RHAW_00_SK', 'MN_RHAW_00.Mat.MN_RHAW_00-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_00.MN_RHWPR_00', 'MN_RHWPR_00', 'False', 'MN_RHWPR_00', 'MN_RHWPR_00', '붉은발톱호_00 붉은발톱호 선원 무법자', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_00.Mat.MN_RHWPR_00_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_00-1.MN_RHWPR_00-1', 'MN_RHWPR_00-1', 'True', 'MN_RHWPR_00', 'MN_RHWPR_00', '붉은발톱호_00-1 붉은점호 약탈자', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_00-1.Mat.MN_RHWPR_00-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_00-2.MN_RHWPR_00-2', 'MN_RHWPR_00-2', 'True', 'MN_RHWPR_00', 'MN_RHWPR_00', '붉은발톱호_00-2 붉은눈알호 약탈자', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_00-2.Mat.MN_RHWPR_00-2_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_01.MN_RHWPR_01', 'MN_RHWPR_01', 'True', 'MN_RHWPR_00', 'MN_RHWPR_01', '붉은발톱호_01 붉은발톱호 선원 탐색꾼', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_01.Mat.MN_RHWPR_01_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_01-1.MN_RHWPR_01-1', 'MN_RHWPR_01-1', 'True', 'MN_RHWPR_00', 'MN_RHWPR_01', '붉은발톱호_01-1 붉은눈알호 탐색꾼', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_01-1.Mat.MN_RHWPR_01-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_02.MN_RHWPR_02', 'MN_RHWPR_02', 'True', 'MN_RHWPR_00', 'MN_RHWPR_02', '붉은발톱호_02 붉은발톱호 항해사', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_02.Mat.MN_RHWPR_02_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_03.MN_RHWPR_03', 'MN_RHWPR_03', 'True', 'MN_RHWPR_00', 'MN_RHWPR_03', '붉은눈알호_03 붉은눈알호 무법자', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_03.Mat.MN_RHWPR_03_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPR_04.MN_RHWPR_04', 'MN_RHWPR_04', 'True', 'MN_RHWPR_00', 'MN_RHWPR_04', '붉은눈알호_04 붉은눈알호 소총수', 'MN_RHWPR_00.Mesh.MN_RHWPR_00_SK', 'MN_RHWPR_04.Mat.MN_RHWPR_04_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPS_00.MN_RHWPS_00', 'MN_RHWPS_00', 'False', 'MN_RHWPS_00', 'MN_RHWPS_00', '핏빛칼날호 _00 기억잃은 조난자', 'MN_RHWPS_00.Mesh.MN_RHWPS_00_SK', 'MN_RHWPS_00.Mat.MN_RHWPS_00_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPS_01.MN_RHWPS_01', 'MN_RHWPS_01', 'True', 'MN_RHWPS_00', 'MN_RHWPS_01', '핏빛칼날호 _01 핏빛칼날호 선원 탐색꾼', 'MN_RHWPS_00.Mesh.MN_RHWPS_00_SK', 'MN_RHWPS_01.Mat.MN_RHWPS_01_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPS_01-1.MN_RHWPS_01-1', 'MN_RHWPS_01-1', 'True', 'MN_RHWPS_00', 'MN_RHWPS_01', '핏빛칼날호 _01-1 핏빛칼날호 항해장', 'MN_RHWPS_00.Mesh.MN_RHWPS_00_SK', 'MN_RHWPS_01-1.Mat.MN_RHWPS_01-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPS_02.MN_RHWPS_02', 'MN_RHWPS_02', 'True', 'MN_RHWPS_00', 'MN_RHWPS_02', '핏빛칼날호 _02 핏빛칼날호 선원 약탈자', 'MN_RHWPS_00.Mesh.MN_RHWPS_00_SK', 'MN_RHWPS_02.Mat.MN_RHWPS_02_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWPS_03.MN_RHWPS_03', 'MN_RHWPS_03', 'True', 'MN_RHWPS_00', 'MN_RHWPS_03', '핏빛칼날호 _03 핏빛칼날호 돌격대장', 'MN_RHWPS_00.Mesh.MN_RHWPS_00_SK', 'MN_RHWPS_03.Mat.MN_RHWPS_03_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_00.MN_RHWP_00', 'MN_RHWP_00', 'False', 'MN_RHWP_00', 'MN_RHWP_00', '붉은고래해적_00 붉은고래 해적남', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_00.Mat.MN_RHWP_00_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_01.MN_RHWP_01', 'MN_RHWP_01', 'True', 'MN_RHWP_00', 'MN_RHWP_01', '붉은고래해적_01 붉은고래 해적 탐색꾼', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_01.Mat.MN_RHWP_01_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_01-1.MN_RHWP_01-1', 'MN_RHWP_01-1', 'True', 'MN_RHWP_00', 'MN_RHWP_01', '붉은고래해적_01-1 붉은 안개호 갑판장', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_01-1.Mat.MN_RHWP_01-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_02.MN_RHWP_02', 'MN_RHWP_02', 'True', 'MN_RHWP_00', 'MN_RHWP_02', '붉은고래해적_02 붉은고래 해적 약탈자', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_02.Mat.MN_RHWP_02_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_03.MN_RHWP_03', 'MN_RHWP_03', 'True', 'MN_RHWP_00', 'MN_RHWP_03', '붉은고래해적_03 붉은고래 해적 무법자', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_03.Mat.MN_RHWP_03_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_03-1.MN_RHWP_03-1', 'MN_RHWP_03-1', 'True', 'MN_RHWP_00', 'MN_RHWP_03', '붉은고래해적_03-1 붉은안개호 선원(칼)', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_03-1.Mat.MN_RHWP_03-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_04.MN_RHWP_04', 'MN_RHWP_04', 'True', 'MN_RHWP_00', 'MN_RHWP_04', '붉은고래해적_04 붉은고래 해적 소총수', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_04.Mat.MN_RHWP_04_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_04-1.MN_RHWP_04-1', 'MN_RHWP_04-1', 'True', 'MN_RHWP_00', 'MN_RHWP_04', '붉은고래해적_04-1 붉은안개호 선원(총)', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_04-1.Mat.MN_RHWP_04-1_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RHWP_05.MN_RHWP_05', 'MN_RHWP_05', 'True', 'MN_RHWP_00', 'MN_RHWP_05', '붉은고래해적_05 붉은고래  해적선원', 'MN_RHWP_00.Mesh.MN_RHWP_00_SK', 'MN_RHWP_05.Mat.MN_RHWP_05_MI', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPAP_00.MN_RPAP_00', 'MN_RPAP_00', 'False', 'MN_RPAP_00', 'MN_RPAP_00', '알리페르', 'MN_RPAP_00.Mesh.MN_RPAP_00_SK', '', 'mn_rpap_00.Ani.MN_RPAP_00_Ani', 'mn_rpap_00.Mesh.MN_RPAP_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPAR_00.MN_RPAR_00', 'MN_RPAR_00', 'False', 'MN_RPAR_00', 'MN_RPAR_00', '아가루스', 'MN_RPAR_00.Mesh.MN_RPAR_00_SK', '', 'MN_RAET_00.Ani.MN_RAET_00_Ani', 'MN_RAET_00.Ani.MN_RAET_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPBC_00.MN_RPBC_00', 'MN_RPBC_00', 'False', 'MN_RPBC_00', 'MN_RPBC_00', '부룩', 'MN_RPBC_00.Mesh.MN_RPBC_00_SK', '', 'MN_RPBC_00.Ani.MN_RPBC_00_Ani', 'MN_RPBC_00.Mesh.MN_RPBC_00_Physics', '', '', '', '', '']
+16
+['mn', 'efdlchar_MN_RPBF_00.mn_rpbf_00', 'mn_rpbf_00', 'False', 'mn_rpbf_00', 'mn_rpbf_00', '발탄', 'mn_rpbf_00.Mesh.MN_RPBF_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPBS_00.MN_RPBS_00', 'MN_RPBS_00', 'False', 'MN_RPBS_00', 'MN_RPBS_00', '붉은 손 검사', 'MN_RPBS_00.Mesh.MN_RPBS_00_SK', 'MN_RPBS_00.Mat.MN_RPBS_00_MI', 'MN_RPBS_00.Ani.MN_RPBS_00_Ani', 'MN_RPBS_00.Mesh.MN_RPBS_00_Physics', '', 'WP_CMSW_01.Mesh.WP_CMSW_01_SK', 'WP_MN_RPBS_00.Mesh.WP_MN_RPBS_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_RPBS_01.MN_RPBS_01', 'MN_RPBS_01', 'True', 'MN_RPBS_00', 'MN_RPBS_01', '붉은 손 검사_1 창병', 'MN_RPBS_00.Mesh.MN_RPBS_00_SK', 'MN_RPBS_01.Mat.MN_RPBS_01_MI', 'MN_RPBS_01.Ani.MN_RPBS_01_Ani', 'MN_RPBS_00.Mesh.MN_RPBS_00_Physics', '', 'WP_CMSP_01.Mesh.WP_CMSP_01_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPBS_02.MN_RPBS_02', 'MN_RPBS_02', 'True', 'MN_RPBS_00', 'MN_RPBS_02', '붉은 손 검사_2 마법사', 'MN_RPBS_02.Mesh.MN_RPBS_02_SK', '', 'MN_RPBS_02.Ani.MN_RPBS_02_Ani', 'MN_RPBS_02.Mesh.MN_RPBS_02_Physics', '', 'WP_MN_RPBS_02.Mesh.WP_MN_RPBS_02_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPBT_00.MN_RPBT_00', 'MN_RPBT_00', 'False', 'MN_RPBT_00', 'MN_RPBT_00', '푸름', 'MN_RPBT_00.Mesh.MN_RPBT_00_SK', '', 'MN_RPBT_00.Ani.MN_RPBT_00_Ani', 'MN_RPBT_00.Ani.MN_RPBT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPBT_00-1.MN_RPBT_00-1', 'MN_RPBT_00-1', 'True', 'MN_RPBT_00', 'MN_RPBT_00', '미쳐버린 전사 푸름', 'MN_RPBT_00.Mesh.MN_RPBT_00_SK', 'MN_RPBT_00-1.Mat.MN_RPBT_00-1_MI', 'MN_RPBT_00.Ani.MN_RPBT_00_Ani', 'MN_RPBT_00.Ani.MN_RPBT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPBT_00-2.MN_RPBT_00-2', 'MN_RPBT_00-2', 'True', 'MN_RPBT_00', 'MN_RPBT_00', '미쳐버린 마법사 푸름', 'MN_RPBT_00.Mesh.MN_RPBT_00_SK', 'MN_RPBT_00-2.Mat.MN_RPBT_00-2_MI', 'MN_RPBT_00-2.Ani.MN_RPBT_00-2_Ani', 'MN_RPBT_00.Ani.MN_RPBT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPCC_00.MN_RPCC_00', 'MN_RPCC_00', 'False', 'MN_RPCC_00', 'MN_RPCC_00', '크랙크릭', 'MN_RPCC_00.Mesh.MN_RPCC_00_SK', '', 'MN_RPCC_00.Ani.MN_RPCC_00_Ani', 'MN_RPCC_00.Ani.MN_RPCC_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPDM_00.MN_RPDM_00', 'MN_RPDM_00', 'False', 'MN_RPDM_00', 'MN_RPDM_00', '두라멘', 'MN_RPDM_00.Mesh.MN_RPDM_00_SK', '', 'MN_RPDM_00.Ani.MN_RPDM_00_Ani', 'MN_RPDM_00.Ani.MN_RPDM_00_Physics', '', '', '', '', 'FX_MN_03.Par_G_RPDM_default_01']
+16
+['MN', 'EFDLChar_MN_RPDM_01.MN_RPDM_01', 'MN_RPDM_01', 'True', 'MN_RPDM_00', 'MN_RPDM_01', '거대게', 'MN_RPDM_01.Mesh.MN_RPDM_01_SK', '', 'MN_RPDM_01.Ani.MN_RPDM_01_Ani', 'MN_RPDM_01.Ani.MN_RPDM_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPDM_01-1.MN_RPDM_01-1', 'MN_RPDM_01-1', 'True', 'MN_RPDM_00', 'MN_RPDM_01', '거대게_검은돌 거대게', 'MN_RPDM_01.Mesh.MN_RPDM_01_SK', 'MN_RPDM_01-1.Mat.MN_RPDM_01-1_MI', 'MN_RPDM_01.Ani.MN_RPDM_01_Ani', 'MN_RPDM_01.Ani.MN_RPDM_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPDM_01-2.MN_RPDM_01-2', 'MN_RPDM_01-2', 'True', 'MN_RPDM_00', 'MN_RPDM_01', '거대게_검은바위크록', 'MN_RPDM_01.Mesh.MN_RPDM_01_SK', 'MN_RPDM_01-2.Mat.MN_RPDM_01-2_MI', 'MN_RPDM_01.Ani.MN_RPDM_01_Ani', 'MN_RPDM_01.Ani.MN_RPDM_01_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPFH_00.MN_RPFH_00', 'MN_RPFH_00', 'False', 'MN_RPFH_00', 'MN_RPFH_00', '숲 소라게', 'MN_RPFH_00.Mesh.MN_RPFH_00_SK', 'MN_RPFH_00.Mat.MN_RPFH_00_MI', 'MN_RPFH_00.Ani.MN_RPFH_00_Ani', 'MN_RPFH_00.Ani.MN_RPFH_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPFH_00-1.MN_RPFH_00-1', 'MN_RPFH_00-1', 'True', 'MN_RPFH_00', 'MN_RPFH_00', '오염된 숲 소라게', 'MN_RPFH_00.Mesh.MN_RPFH_00_SK', 'MN_RPFH_00-1.Mat.MN_RPFH_00-1_MI', 'MN_RPFH_00.Ani.MN_RPFH_00_Ani', 'MN_RPFH_00.Ani.MN_RPFH_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPGO_00.MN_RPGO_00', 'MN_RPGO_00', 'False', 'MN_RPGO_00', 'MN_RPGO_00', '게로드', 'MN_RPGO_00.Mesh.MN_RPGO_00_SK', '', 'mn_rpgo_00.Ani.MN_RPGO_00_Ani', 'mn_rpgo_00.Ani.MN_RPGO_00_Physics', '', '', '', '', '']
+16
+['', 'EFDLChar_MN_RPGO_00.MN_RPGO_00._', '_', 'False', '', '', '게로드', 'MN_RPGO_00.Mesh.MN_RPGO_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPJE_00.MN_RPJE_00', 'MN_RPJE_00', 'False', 'MN_RPJE_00', 'MN_RPJE_00', '젤루스에마', 'MN_RPJE_00.Mesh.MN_RPJE_00_SK', '', 'MN_RPJE_00.Ani.MN_RPJE_00_Ani', 'MN_RPJE_00.Ani.MN_RPJE_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPKR_00.MN_RPKR_00', 'MN_RPKR_00', 'False', 'MN_RPKR_00', 'MN_RPKR_00', '킬리', 'MN_RPKR_00.Mesh.MN_RPKR_00_SK', '', 'MN_RPKR_00.Ani.MN_RPKR_00_Ani', 'MN_RPKR_00.Mesh.MN_RPKR_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPPC_00.MN_RPPC_00', 'MN_RPPC_00', 'False', 'MN_RPPC_00', 'MN_RPPC_00', '호박당원 갈퀴 ', 'MN_RPPC_00.Mesh.MN_RPPC_00_SK', '', 'MN_RPPC_00.Ani.MN_RPPC_00_Ani', 'MN_RPPC_00.Mesh.MN_RPPC_00_Physics', '', 'WP_MN_RPPC_00.Mesh.WP_MN_RPPC_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPPC_01.MN_RPPC_01', 'MN_RPPC_01', 'True', 'MN_RPPC_00', 'MN_RPPC_01', '호박당원 곡괭이', 'MN_RPPC_00.Mesh.MN_RPPC_00_SK', '', 'MN_RPPC_01.Ani.MN_RPPC_01_Ani', 'MN_RPPC_00.Mesh.MN_RPPC_00_Physics', '', 'WP_MN_RPPC_01.Mesh.WP_MN_RPPC_01_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPPC_02.MN_RPPC_02', 'MN_RPPC_02', 'True', 'MN_RPPC_00', 'MN_RPPC_02', '호박당원 몽둥이', 'MN_RPPC_00.Mesh.MN_RPPC_00_SK', '', 'MN_RPPC_02.Ani.MN_RPPC_02_Ani', 'MN_RPPC_00.Mesh.MN_RPPC_00_Physics', '', 'WP_NP_RABD_00.Mesh.WP_NP_RABD_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPPK_00.MN_RPPK_00', 'MN_RPPK_00', 'False', 'MN_RPPK_00', 'MN_RPPK_00', '호박당원 쌍수 도끼', 'MN_RPPK_00.Mesh.MN_RPPK_00_SK', '', 'MN_RPPK_00.Ani.MN_RPPK_00_Ani', 'MN_RPPK_00.Ani.MN_RPPK_00_Physics', '', 'MN_RPPK_00.Mesh.WP_RPPK_00_SK', 'MN_RPPK_00.Mesh.WP_RPPK_00_SK', '', '']
+16
+['MN', 'EFDLChar_MN_RPPK_01.MN_RPPK_01', 'MN_RPPK_01', 'True', 'MN_RPPK_00', 'MN_RPPK_01', '호박당원 쌍수 망치', 'MN_RPPK_00.Mesh.MN_RPPK_00_SK', 'MN_RPPK_01.Mat.MN_RPPK_01_MI', 'MN_RPPK_00.Ani.MN_RPPK_00_Ani', 'MN_RPPK_00.Ani.MN_RPPK_00_Physics', '', 'MN_RPPK_01.Mesh.WP_RPPK_01_SK', 'MN_RPPK_01.Mesh.WP_RPPK_01_SK', '', '']
+16
+['MN', 'EFDLChar_MN_RPPK_02.MN_RPPK_02', 'MN_RPPK_02', 'True', 'MN_RPPK_00', 'MN_RPPK_02', '호박당원 쌍수 식칼', 'MN_RPPK_00.Mesh.MN_RPPK_00_SK', 'mn_rppk_02.Mat.MN_RPPK_02_MI', 'MN_RPPK_00.Ani.MN_RPPK_00_Ani', 'MN_RPPK_00.Ani.MN_RPPK_00_Physics', '', 'MN_RPPK_02.Mesh.WP_RPPK_02_SK', 'MN_RPPK_02.Mesh.WP_RPPK_02_SK', '', '']
+16
+['MN', 'EFDLChar_MN_RPPM_00.MN_RPPM_00', 'MN_RPPM_00', 'False', 'MN_RPPM_00', 'MN_RPPM_00', '파메스', 'MN_RPPM_00.Mesh.MN_RPPM_00_SK', '', 'MN_RPPM_00.Ani.MN_RPPM_00_Ani', 'MN_RPPM_00.Mesh.MN_RPPM_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPPY_00.MN_RPPY_00', 'MN_RPPY_00', 'False', 'MN_RPPY_00', 'MN_RPPY_00', '피요크', 'MN_RPPY_00.Mesh.MN_RPPY_00_SK', '', 'MN_RPPY_00.Ani.MN_RPPY_00_Ani', 'MN_RPPY_00.Mesh.MN_RPPY_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPPZ_00.MN_RPPZ_00', 'MN_RPPZ_00', 'False', 'MN_RPPZ_00', 'MN_RPPZ_00', '페로와말렌', 'MN_RPPZ_00.Mesh.MN_RPPZ_00_SK', '', 'MN_RPPZ_00.Ani.MN_RPPZ_00_Ani', 'MN_RPPZ_00.Mesh.MN_RPPZ_00_Physics', '', 'WP_MN_RPPZ_00.Mesh.WP_MN_RPPZ_00_SK', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPRG_00.MN_RPRG_00', 'MN_RPRG_00', 'False', 'MN_RPRG_00', 'MN_RPRG_00', '링고르', 'MN_RPRG_00.Mesh.MN_RPRG_00_SK', 'MN_RPRG_00.Mat.MN_RPRG_00_MI', 'MN_RPRG_00.Ani.MN_RPRG_00_Ani', 'MN_RPRG_00.Ani.MN_RPRG_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPRR_00.MN_RPRR_00', 'MN_RPRR_00', 'False', 'MN_RPRR_00', 'MN_RPRR_00', '로블롬', 'MN_RPRR_00.Mesh.MN_RPRR_00_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPRR_00-1.MN_RPRR_00-1', 'MN_RPRR_00-1', 'True', 'MN_RPRR_00', 'MN_RPRR_00', '로블롬 촉수', 'MN_RPRR_00.Mesh.MN_RPRR_00-1_SK', '', '', '', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPRS_00.MN_RPRS_00', 'MN_RPRS_00', 'False', 'MN_RPRS_00', 'MN_RPRS_00', '릭투스', 'MN_RPRS_00.Mesh.MN_RPRS_00_SK', '', 'MN_RPRS_00.Ani.MN_RPRS_00_Ani', 'MN_RPRS_00.Ani.MN_RPRS_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPRT_00.MN_RPRT_00', 'MN_RPRT_00', 'False', 'MN_RPRT_00', 'MN_RPRT_00', '레플레티오', 'MN_RPRT_00.Mesh.MN_RPRT_00_SK', '', 'MN_RPRT_00.Ani.MN_RPRT_00_Ani', 'MN_RPRT_00.Ani.MN_RPRT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPTF_00.MN_RPTF_00', 'MN_RPTF_00', 'False', 'MN_RPTF_00', 'MN_RPTF_00', '뒤틀린열매A', 'MN_RPTF_00.Mesh.MN_RPTF_00_SK', '', 'MN_RPTF_00.Ani.MN_RPTF_00_Ani', 'MN_RPTF_00.Mesh.MN_RPTF_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPTF_00-1.MN_RPTF_00-1', 'MN_RPTF_00-1', 'True', 'MN_RPTF_00', 'MN_RPTF_00', '뒤틀린열매B', 'MN_RPTF_00.Mesh.MN_RPTF_00_SK', 'MN_RPTF_00-1.Mat.MN_RPTF_00-1_MI', 'MN_RPTF_00.Ani.MN_RPTF_00_Ani', 'MN_RPTF_00.Mesh.MN_RPTF_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPTF_00-2.MN_RPTF_00-2', 'MN_RPTF_00-2', 'True', 'MN_RPTF_00', 'MN_RPTF_00', '뒤틀린열매C', 'MN_RPTF_00.Mesh.MN_RPTF_00_SK', 'mn_rptf_00-2.Mat.MN_RPTF_00-2_MI', 'MN_RPTF_00.Ani.MN_RPTF_00_Ani', 'MN_RPTF_00.Mesh.MN_RPTF_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPTL_00.MN_RPTL_00', 'MN_RPTL_00', 'False', 'MN_RPTL_00', 'MN_RPTL_00', '트릴', 'MN_RPTL_00.Mesh.MN_RPTL_00_SK', 'MN_RPTL_00.Mat.MN_RPTL_00_MI', 'MN_RPTL_00.Ani.MN_RPTL_00_Ani', 'MN_RPTL_00.Mesh.MN_RPTL_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPTT_00.MN_RPTT_00', 'MN_RPTT_00', 'False', 'MN_RPTT_00', 'MN_RPTT_00', '딱총따개비', 'MN_RPTT_00.Mesh.MN_RPTT_00_SK', '', 'MN_RPTT_00.Ani.MN_RPTT_00_Ani', 'MN_RPTT_00.Ani.MN_RPTT_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPTW_00.MN_RPTW_00', 'MN_RPTW_00', 'False', 'MN_RPTW_00', 'MN_RPTW_00', '천둥날개', 'MN_RPTW_00.Mesh.MN_RPTW_00_SK', '', 'MN_RPTW_00.Ani.MN_RPTW_00_Ani', 'MN_RPTW_00.Mesh.MN_RPTW_00_Physics', '', '', '', '', '']
+16
+['MN', 'EFDLChar_MN_RPWD_00.MN_RPWD_00', 'MN_RPWD_00', 'False', 'MN_RPWD_00', 'MN_RPWD_00', '경비병마법사', 'MN_RPWD_00.Mesh.MN_RPWD_00_SK', 'MN_RPWD_00.Mat.MN_RPWD_00_MI', 'MN_RPWD_00.Ani.MN_RPWD_00_Ani', 'MN_RPWD_00.Mesh.MN_RPWD_00_Physics', '', 'WP_NP_LPAM_00.Mesh.WP_NP_LPAM_00_SK', '', '', '']
+17
+['MN', 'EFDLChar_MN_RPWD_00-1.MN_RPWD_00-1', 'MN_RPWD_00-1', 'True', 'MN_RPWD_00', 'MN_RPWD_00', '경비병마법사-1', ' 경비병사제', 'MN_RPWD_00.Mesh.MN_RPWD_00_SK', 'mn_rpwd_00-1.Mat.MN_RPWD_01_MI', 'MN_RPWD_00.Ani.MN_RPWD_00_Ani', 'MN_RPWD_00.Mesh.MN_RPWD_00_Physics', '', 'WP_NP_LPAM_00.Mesh.WP_NP_LPAM_00_SK', '', '', '']

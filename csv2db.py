@@ -3,6 +3,7 @@ import csv
 import os
 import glob
 import logging
+import codecs
 
 # get logger
 logger = logging.getLogger('csv2db_logger')
@@ -41,34 +42,55 @@ def csv2db():
         tablename = os.path.splitext(os.path.basename(csvfile))[0]
 
         logger.info("Open %s file" % csvfile)
+        
+        for encoding in ['euc-kr', 'cp949', 'utf-8', 'utf-16-le', 'utf-16', 'utf-16-be']:
+            with codecs.open(csvfile, "r",  encoding=encoding) as f:
+                reader = csv.reader(f)
+                # check file encoding
+                try:
+                    reader = list(reader)
+                except:
+                    continue
+                    
+                if reader and len(reader) > 0:
+                    header = reader[0]
+                    # drop old table
+                    sql = "DROP TABLE IF EXISTS %s" % tablename
+                    cur.execute(sql)
+                    
+                    # add quote for near 'GROUP' syntax error
+                    header = ["'" + i + "'" for i in header]
+                    columnCount = len(header)
 
-        with open(csvfile, "r") as f:
-            reader = csv.reader(f)
-            reader = list(reader)
-            if reader and len(reader) > 0:
-                header = reader[0]
-                # drop old table
-                sql = "DROP TABLE IF EXISTS %s" % tablename
-                cur.execute(sql)
+                    # create table sql command, if id field not in table then make it.
+                    if not any(['id' == column.lower() for column in header]):
+                        sql = "CREATE TABLE %s (%s)" % (tablename, 'id INTEGER PRIMARY KEY AUTOINCREMENT, ' + ", ".join(
+                            ["%s" % column for column in header]))
+                    else:
+                        sql = "CREATE TABLE %s (%s)" % (tablename, ", ".join(["%s" % column for column in header]))
+                    cur.execute(sql)
 
-                # create table sql command, if id field not in table then make it.
-                if not any(['id' == column.lower() for column in header]):
-                    sql = "CREATE TABLE %s (%s)" % (tablename, 'id INTEGER PRIMARY KEY AUTOINCREMENT, ' + ", ".join(
-                        ["%s" % column for column in header]))
+                    # insert sql command
+                    sql = "INSERT INTO %s (%s) VALUES (%s)" % (tablename, ", ".join(header), ", ".join(["?" for i in header]))                    
+                    
+                    # insert values - ignore header
+                    for i, row in enumerate(reader[1:]):
+                        if len(row) < columnCount:
+                            logger.warning("-" * 50)
+                            logger.warning("%s : not matched row item count. %d line" % (tablename, i+2))
+                            logger.warning("%s" % header)
+                            logger.warning("%s" % row)
+                            continue
+                        cur.execute(sql, row[:columnCount])
+
+                    # commit
+                    conn.commit()
+                    break
                 else:
-                    sql = "CREATE TABLE %s (%s)" % (tablename, ", ".join(["%s" % column for column in header]))
-                cur.execute(sql)
-
-                # insert sql command
-                sql = "INSERT INTO %s (%s) VALUES (%s)" % (tablename, ", ".join(header), ", ".join(["?" for i in header]))
-                # insert values - ignore header
-                for row in reader[1:]:
-                    cur.execute(sql, row)
-
-                # commit
-                conn.commit()
-            else:
-                logger.warning("error")
+                    logger.warning("%s file error" % csvfile)
+        # not found encoding
+        else:
+            logger.warning("encoding error")
     cur.close()
     conn.close()
     logger.info("end")

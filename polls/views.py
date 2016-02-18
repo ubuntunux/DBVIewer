@@ -4,7 +4,7 @@ from django.core.urlresolvers import reverse
 from django.views import generic
 from django.utils import timezone
 
-from .models import Question, Choice, Sample
+from .models import Question, Choice, LookinfosNpc
 
 
 class IndexView(generic.ListView):
@@ -39,7 +39,7 @@ def view_image(request):
 
 
 def myview(request):
-    return render(request, 'polls/myview.html', {'samples': Sample.objects.all()[:10]})
+    return render(request, 'polls/myview.html', {'samples': LookinfosNpc.objects.all()})
 
 
 def vote(request, question_id):
