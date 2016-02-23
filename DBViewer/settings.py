@@ -127,5 +127,6 @@ STATIC_ROOT = "./static"
 
 # set static files url
 STATICFILES_DIRS = [
-    ('images', os.path.join(BASE_DIR, 'static', 'images')),  # (relative url from STATIC_URL, filepath) ==> url is /static/images, filepath is ./static/images
+    # (relative url from STATIC_URL, filepath) ==> url is /static/images, filepath is ./static/images
+    ('images', os.path.join(BASE_DIR, 'static', 'images')),
 ]

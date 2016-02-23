@@ -1,7 +1,16 @@
-<img src="/static/images/a.jpg">
 
-<ul>
-{% for sample in samples %}
-    <li>{{ sample.id }}. {{ sample.desc }}</li>
-{% endfor %}
-</ul>
+
+<table>
+    <tr>
+        <td><a href="/polls/">id</a></td>
+        <td>desc</td>
+        <td>image</td>
+    </tr>
+    {% for sample in samples %}
+    <tr>
+        <td>{{ sample.id }}</td>
+        <td>{{ sample.desc }}</td>
+        <td><img src="/static/images/a.jpg" height="60px"></td>
+    </tr>
+    {% endfor %}
+</table>

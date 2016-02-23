@@ -39,7 +39,7 @@ def view_image(request):
 
 
 def myview(request):
-    return render(request, 'polls/myview.html', {'samples': LookinfosNpc.objects.all()})
+    return render(request, 'polls/myview.html', {'samples': LookinfosNpc.objects.all().order_by('desc')})
 
 
 def vote(request, question_id):
