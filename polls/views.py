@@ -1,8 +1,9 @@
-from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
-from django.views import generic
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
+from django.views import generic
 
 from .models import Question, Choice, LookinfosNpc
 
@@ -40,6 +41,36 @@ def view_image(request):
 
 def myview(request):
     return render(request, 'polls/myview.html', {'samples': LookinfosNpc.objects.all().order_by('desc')})
+
+
+def layout(request):
+    return render(request, 'polls/layout.html')
+
+
+def listing(request):
+    contact_list = LookinfosNpc.objects.all()
+    paginator = Paginator(contact_list, 25) # Show 25 contacts per page
+
+    page = request.GET.get('page')
+    currentPage = 1
+    currentLastPage = paginator.num_pages
+    pageListCount = 20 # page number list
+    try:
+        contacts = paginator.page(page)
+        currentPage = int(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        contacts = paginator.page(1)
+        currentPage = 1
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        contacts = paginator.page(paginator.num_pages)
+        currentPage = paginator.num_pages
+
+    if currentPage + pageListCount < paginator.num_pages:
+        currentLastPage = currentPage + pageListCount
+
+    return render(request, 'polls/list.html', {'contacts': contacts, 'pageListCount': pageListCount, 'range': range(currentPage, currentLastPage+1)})
 
 
 def vote(request, question_id):
