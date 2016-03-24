@@ -6,9 +6,12 @@ username : dbviewer
 password : dbviewer
 
 # Requirment
-  - Django 1.9
-  - Django Extension
-    - https://github.com/django-extensions/django-extensions
+  - django 1.9.4
+  - django-debug-0.1.1
+  - django_extensions-1.6.1
+  - werkzeug-0.11.5 
+
+# Note
   - Using IPython Notebook with Django
     - https://andrewbrookins.com/python/using-ipython-notebook-with-django/
   - Bootstrap
