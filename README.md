@@ -1,23 +1,18 @@
-# DBVIewer
-Database Viewer
-
+# DBViewer
 - Administrator
     - username : dbviewer  
     - password : dbviewer
 
-- Requirment
+- Dependencies
   - django 1.9.4
   - django-debug-0.1.1
   - django_extensions-1.6.1
   - werkzeug-0.11.5 
 
-- Note
-  - Using IPython Notebook with Django
-    - https://andrewbrookins.com/python/using-ipython-notebook-with-django/
-  - Bootstrap
-    - install on ubuntu : http://linuxpitstop.com/install-bootstrap-in-ubuntu-15-04/
-    - windows : http://getbootstrap.com/getting-started/#download
-  - FTP
-    - django-ftpserver-0.3.4
-    - pyftpdlib-1.5.0
-
+- Features
+    - NPC LookInfoView
+        - Spawned level list
+        - Insert Table
+        - Variation List
+    - Level List
+        - Spawned NPC List
